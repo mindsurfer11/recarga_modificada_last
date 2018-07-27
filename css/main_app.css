@@ -1,0 +1,4819 @@
+@import "http://hogar.movistar.cl/inc_header_footer/css/header.fonts.css";
+
+@font-face {
+    font-family: 'MovistarHeadlineBold';
+    src: url("../fonts/movistarheadline-bold-webfont.eot");
+    src: url("../fonts/movistarheadline-bold-webfont.eot?iefix") format("eot"), url("../fonts/movistarheadline-bold-webfont.woff") format("woff"), url("../fonts/movistarheadline-bold-webfont.ttf") format("truetype"), url("../fonts/movistarheadline-bold-webfont.svg#webfontZhAFkZ39") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MovistarHeadlineRegular';
+    src: url("../fonts/movistarheadline-regular-webfont.eot");
+    src: url("../fonts/movistarheadline-regular-webfont.eot?iefix") format("eot"), url("../fonts/movistarheadline-regular-webfont.woff") format("woff"), url("../fonts/movistarheadline-regular-webfont.ttf") format("truetype"), url("../fonts/movistarheadline-regular-webfont.svg#webfontVhYcHUZV") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MovistarText';
+    src: url("../fonts/movistartext-regular-webfont.eot");
+    src: url("../fonts/movistartext-regular-webfont.eot?iefix") format("eot"), url("../fonts/movistartext-regular-webfont.woff") format("woff"), url("../fonts/movistartext-regular-webfont.ttf") format("truetype"), url("../fonts/movistartext-regular-webfont.svg#webfontT4D5zaO2") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular-webfont.eot");
+    src: url("../fonts/Roboto-Regular-webfont.eot?iefix") format("eot"), url("../fonts/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("../fonts/Roboto-Regular-webfont.svg#webfontT4D5zaO2") format("svg");
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("../fonts/roboto-bold-webfont.eot");
+    src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoThin';
+    src: url("../fonts/roboto-thin.eot");
+    src: url("../fonts/roboto-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin.woff2") format("woff2"), url("../fonts/roboto-thin.woff") format("woff"), url("../fonts/roboto-thin.ttf") format("truetype"), url("../fonts/roboto-thin.svg#robotothin") format("svg");
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("../fonts/Roboto-Light-webfont.eot");
+    src: url("../fonts/Roboto-Light-webfont.eot?iefix") format("eot"), url("../fonts/Roboto-Light-webfont.woff") format("woff"), url("../fonts/Roboto-Light-webfont.ttf") format("truetype"), url("../fonts/Roboto-Light-webfont.svg#webfontT4D5zaO2") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+@font-face {
+    font-family: 'MCSS';
+    src: url("../fonts/icon-mcss.eot?rnggxp");
+    src: url("../fonts/icon-mcss.eot?rnggxp#iefix") format("embedded-opentype"), url("../fonts/icon-mcss.ttf?rnggxp") format("truetype"), url("../fonts/icon-mcss.woff?rnggxp") format("woff"), url("../fonts/icon-mcss.svg?rnggxp#icon-mcss") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TelefonicaWeb-Regular';
+}
+
+strong {
+    font-family: 'TelefonicaWeb-Bold';
+}
+/* Margenes 24 */
+
+.margin-12 {
+    margin: 12px;
+}
+.margin-12-i {
+    margin: 12px !important;
+}
+.margin-24 {
+    margin: 24px;
+}
+.margin-24-i {
+    margin: 24px !important;
+}
+.margin-36 {
+    margin: 36px;
+}
+.margin-36-i {
+    margin: 36px !important;
+}
+.margin-48 {
+    margin: 48px;
+}
+.margin-48-i {
+    margin: 48px !important;
+}
+.margin-60 {
+    margin: 60px;
+}
+.margin-60-i {
+    margin: 60px !important;
+}
+.margin-72 {
+    margin: 72px;
+}
+.margin-72-i {
+    margin: 72px !important;
+}
+.margin-84 {
+    margin: 84px;
+}
+.margin-84-i {
+    margin: 84px !important;
+}
+.margin-96 {
+    margin: 96px;
+}
+.margin-96-i {
+    margin: 96px !important;
+}
+.margin-top-12 {
+    margin-top: 12px;
+}
+.margin-top-12-i {
+    margin-top: 12px !important;
+}
+.margin-top-24 {
+    margin-top: 24px;
+}
+.margin-top-24-i {
+    margin-top: 24px !important;
+}
+.margin-top-36 {
+    margin-top: 36px;
+}
+.margin-top-36-i {
+    margin-top: 36px !important;
+}
+.margin-top-48 {
+    margin-top: 48px;
+}
+.margin-top-48-i {
+    margin-top: 48px !important;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.margin-top-60-i {
+    margin-top: 60px !important;
+}
+.margin-top-72 {
+    margin-top: 72px;
+}
+.margin-top-72-i {
+    margin-top: 72px !important;
+}
+.margin-top-84 {
+    margin-top: 84px;
+}
+.margin-top-84-i {
+    margin-top: 84px !important;
+}
+.margin-top-96 {
+    margin-top: 96px;
+}
+.margin-top-96-i {
+    margin-top: 96px !important;
+}
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+.margin-bottom-12-i {
+    margin-bottom: 12px !important;
+}
+.margin-bottom-24 {
+    margin-bottom: 24px;
+}
+.margin-bottom-24-i {
+    margin-bottom: 24px !important;
+}
+.margin-bottom-36 {
+    margin-bottom: 36px;
+}
+.margin-bottom-36-i {
+    margin-bottom: 36px !important;
+}
+.margin-bottom-48 {
+    margin-bottom: 48px;
+}
+.margin-bottom-48-i {
+    margin-bottom: 48px !important;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.margin-bottom-60-i {
+    margin-bottom: 60px !important;
+}
+.margin-bottom-72 {
+    margin-bottom: 72px;
+}
+.margin-bottom-72-i {
+    margin-bottom: 72px !important;
+}
+.margin-bottom-84 {
+    margin-bottom: 84px;
+}
+.margin-bottom-84-i {
+    margin-bottom: 84px !important;
+}
+.margin-bottom-96 {
+    margin-bottom: 96px;
+}
+.margin-bottom-96-i {
+    margin-bottom: 96px !important;
+}
+.padding-top-12 {
+    padding-top: 12px;
+}
+.padding-top-12-i {
+    padding-top: 12px !important;
+}
+.padding-top-24 {
+    padding-top: 24px;
+}
+.padding-top-24-i {
+    padding-top: 24px !important;
+}
+.padding-top-36 {
+    padding-top: 36px;
+}
+.padding-top-36-i {
+    padding-top: 36px !important;
+}
+.padding-top-48 {
+    padding-top: 48px;
+}
+.padding-top-48-i {
+    padding-top: 48px !important;
+}
+.padding-top-60 {
+    padding-top: 60px;
+}
+.padding-top-60-i {
+    padding-top: 60px !important;
+}
+.padding-top-72 {
+    padding-top: 72px;
+}
+.padding-top-72-i {
+    padding-top: 72px !important;
+}
+.padding-top-84 {
+    padding-top: 84px;
+}
+.padding-top-84-i {
+    padding-top: 84px !important;
+}
+.padding-top-96 {
+    padding-top: 96px;
+}
+.padding-top-96-i {
+    padding-top: 96px !important;
+}
+.padding-bottom-12 {
+    padding-bottom: 12px;
+}
+.padding-bottom-12-i {
+    padding-bottom: 12px !important;
+}
+.padding-bottom-24 {
+    padding-bottom: 24px;
+}
+.padding-bottom-24-i {
+    padding-bottom: 24px !important;
+}
+.padding-bottom-36 {
+    padding-bottom: 36px;
+}
+.padding-bottom-36-i {
+    padding-bottom: 36px !important;
+}
+.padding-bottom-48 {
+    padding-bottom: 48px;
+}
+.padding-bottom-48-i {
+    padding-bottom: 48px !important;
+}
+.padding-bottom-60 {
+    padding-bottom: 60px;
+}
+.padding-bottom-60-i {
+    padding-bottom: 60px !important;
+}
+.padding-bottom-72 {
+    padding-bottom: 72px;
+}
+.padding-bottom-72-i {
+    padding-bottom: 72px !important;
+}
+.padding-bottom-84 {
+    padding-bottom: 84px;
+}
+.padding-bottom-84-i {
+    padding-bottom: 84px !important;
+}
+.padding-bottom-96 {
+    padding-bottom: 96px;
+}
+.padding-bottom-96-i {
+    padding-bottom: 96px !important;
+}
+.padding-12 {
+    padding: 12px;
+}
+.padding-12-i {
+    padding: 12px !important;
+}
+.padding-24 {
+    padding: 24px;
+}
+.padding-24-i {
+    padding: 24px !important;
+}
+.padding-36 {
+    padding: 36px;
+}
+.padding-36-i {
+    padding: 36px !important;
+}
+.padding-48 {
+    padding: 48px;
+}
+.padding-48-i {
+    padding: 48px !important;
+}
+.padding-60 {
+    padding: 60px;
+}
+.padding-60-i {
+    padding: 60px !important;
+}
+.padding-72 {
+    padding: 72px;
+}
+.padding-72-i {
+    padding: 72px !important;
+}
+.padding-84 {
+    padding: 84px;
+}
+.padding-84-i {
+    padding: 84px !important;
+}
+.padding-96 {
+    padding: 96px;
+}
+.padding-96-i {
+    padding: 96px !important;
+}
+@media (min-width: 980px) {
+    .margin-md-12 {
+        margin: 12px;
+    }
+    .margin-md-12-i {
+        margin: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-24 {
+        margin: 24px;
+    }
+    .margin-md-24-i {
+        margin: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-36 {
+        margin: 36px;
+    }
+    .margin-md-36-i {
+        margin: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-48 {
+        margin: 48px;
+    }
+    .margin-md-48-i {
+        margin: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-60 {
+        margin: 60px;
+    }
+    .margin-md-60-i {
+        margin: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-72 {
+        margin: 72px;
+    }
+    .margin-md-72-i {
+        margin: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-84 {
+        margin: 84px;
+    }
+    .margin-md-84-i {
+        margin: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-md-96 {
+        margin: 96px;
+    }
+    .margin-md-96-i {
+        margin: 96px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-12 {
+        margin-top: 12px;
+    }
+    .margin-top-md-12-i {
+        margin-top: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-24 {
+        margin-top: 24px;
+    }
+    .margin-top-md-24-i {
+        margin-top: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-36 {
+        margin-top: 36px;
+    }
+    .margin-top-md-36-i {
+        margin-top: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-48 {
+        margin-top: 48px;
+    }
+    .margin-top-md-48-i {
+        margin-top: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-60 {
+        margin-top: 60px;
+    }
+    .margin-top-md-60-i {
+        margin-top: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-72 {
+        margin-top: 72px;
+    }
+    .margin-top-md-72-i {
+        margin-top: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-84 {
+        margin-top: 84px;
+    }
+    .margin-top-md-84-i {
+        margin-top: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-top-md-96 {
+        margin-top: 96px;
+    }
+    .margin-top-md-96-i {
+        margin-top: 96px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-12 {
+        margin-bottom: 12px;
+    }
+    .margin-bottom-md-12-i {
+        margin-bottom: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-24 {
+        margin-bottom: 24px;
+    }
+    .margin-bottom-md-24-i {
+        margin-bottom: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-36 {
+        margin-bottom: 36px;
+    }
+    .margin-bottom-md-36-i {
+        margin-bottom: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-48 {
+        margin-bottom: 48px;
+    }
+    .margin-bottom-md-48-i {
+        margin-bottom: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-60 {
+        margin-bottom: 60px;
+    }
+    .margin-bottom-md-60-i {
+        margin-bottom: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-72 {
+        margin-bottom: 72px;
+    }
+    .margin-bottom-md-72-i {
+        margin-bottom: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-84 {
+        margin-bottom: 84px;
+    }
+    .margin-bottom-md-84-i {
+        margin-bottom: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .margin-bottom-md-96 {
+        margin-bottom: 96px;
+    }
+    .margin-bottom-md-96-i {
+        margin-bottom: 96px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-12 {
+        padding-top: 12px;
+    }
+    .padding-top-md-12-i {
+        padding-top: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-24 {
+        padding-top: 24px;
+    }
+    .padding-top-md-24-i {
+        padding-top: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-36 {
+        padding-top: 36px;
+    }
+    .padding-top-md-36-i {
+        padding-top: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-48 {
+        padding-top: 48px;
+    }
+    .padding-top-md-48-i {
+        padding-top: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-60 {
+        padding-top: 60px;
+    }
+    .padding-top-md-60-i {
+        padding-top: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-72 {
+        padding-top: 72px;
+    }
+    .padding-top-md-72-i {
+        padding-top: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-84 {
+        padding-top: 84px;
+    }
+    .padding-top-md-84-i {
+        padding-top: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-top-md-96 {
+        padding-top: 96px;
+    }
+    .padding-top-md-96-i {
+        padding-top: 96px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-12 {
+        padding-bottom: 12px;
+    }
+    .padding-bottom-md-12-i {
+        padding-bottom: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-24 {
+        padding-bottom: 24px;
+    }
+    .padding-bottom-md-24-i {
+        padding-bottom: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-36 {
+        padding-bottom: 36px;
+    }
+    .padding-bottom-md-36-i {
+        padding-bottom: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-48 {
+        padding-bottom: 48px;
+    }
+    .padding-bottom-md-48-i {
+        padding-bottom: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-60 {
+        padding-bottom: 60px;
+    }
+    .padding-bottom-md-60-i {
+        padding-bottom: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-72 {
+        padding-bottom: 72px;
+    }
+    .padding-bottom-md-72-i {
+        padding-bottom: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-84 {
+        padding-bottom: 84px;
+    }
+    .padding-bottom-md-84-i {
+        padding-bottom: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-bottom-md-96 {
+        padding-bottom: 96px;
+    }
+    .padding-bottom-md-96-i {
+        padding-bottom: 96px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-12 {
+        padding: 12px;
+    }
+    .padding-md-12-i {
+        padding: 12px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-24 {
+        padding: 24px;
+    }
+    .padding-md-24-i {
+        padding: 24px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-36 {
+        padding: 36px;
+    }
+    .padding-md-36-i {
+        padding: 36px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-48 {
+        padding: 48px;
+    }
+    .padding-md-48-i {
+        padding: 48px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-60 {
+        padding: 60px;
+    }
+    .padding-md-60-i {
+        padding: 60px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-72 {
+        padding: 72px;
+    }
+    .padding-md-72-i {
+        padding: 72px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-84 {
+        padding: 84px;
+    }
+    .padding-md-84-i {
+        padding: 84px !important;
+    }
+}
+@media (min-width: 980px) {
+    .padding-md-96 {
+        padding: 96px;
+    }
+    .padding-md-96-i {
+        padding: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-12 {
+        margin: 12px;
+    }
+    .margin-xs-12-i {
+        margin: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-24 {
+        margin: 24px;
+    }
+    .margin-xs-24-i {
+        margin: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-36 {
+        margin: 36px;
+    }
+    .margin-xs-36-i {
+        margin: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-48 {
+        margin: 48px;
+    }
+    .margin-xs-48-i {
+        margin: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-60 {
+        margin: 60px;
+    }
+    .margin-xs-60-i {
+        margin: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-72 {
+        margin: 72px;
+    }
+    .margin-xs-72-i {
+        margin: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-84 {
+        margin: 84px;
+    }
+    .margin-xs-84-i {
+        margin: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-xs-96 {
+        margin: 96px;
+    }
+    .margin-xs-96-i {
+        margin: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-12 {
+        margin-top: 12px;
+    }
+    .margin-top-xs-12-i {
+        margin-top: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-24 {
+        margin-top: 24px;
+    }
+    .margin-top-xs-24-i {
+        margin-top: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-36 {
+        margin-top: 36px;
+    }
+    .margin-top-xs-36-i {
+        margin-top: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-48 {
+        margin-top: 48px;
+    }
+    .margin-top-xs-48-i {
+        margin-top: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-60 {
+        margin-top: 60px;
+    }
+    .margin-top-xs-60-i {
+        margin-top: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-72 {
+        margin-top: 72px;
+    }
+    .margin-top-xs-72-i {
+        margin-top: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-84 {
+        margin-top: 84px;
+    }
+    .margin-top-xs-84-i {
+        margin-top: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-top-xs-96 {
+        margin-top: 96px;
+    }
+    .margin-top-xs-96-i {
+        margin-top: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-12 {
+        margin-bottom: 12px;
+    }
+    .margin-bottom-xs-12-i {
+        margin-bottom: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-24 {
+        margin-bottom: 24px;
+    }
+    .margin-bottom-xs-24-i {
+        margin-bottom: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-36 {
+        margin-bottom: 36px;
+    }
+    .margin-bottom-xs-36-i {
+        margin-bottom: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-48 {
+        margin-bottom: 48px;
+    }
+    .margin-bottom-xs-48-i {
+        margin-bottom: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-60 {
+        margin-bottom: 60px;
+    }
+    .margin-bottom-xs-60-i {
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-72 {
+        margin-bottom: 72px;
+    }
+    .margin-bottom-xs-72-i {
+        margin-bottom: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-84 {
+        margin-bottom: 84px;
+    }
+    .margin-bottom-xs-84-i {
+        margin-bottom: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .margin-bottom-xs-96 {
+        margin-bottom: 96px;
+    }
+    .margin-bottom-xs-96-i {
+        margin-bottom: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-12 {
+        padding-top: 12px;
+    }
+    .padding-top-xs-12-i {
+        padding-top: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-24 {
+        padding-top: 24px;
+    }
+    .padding-top-xs-24-i {
+        padding-top: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-36 {
+        padding-top: 36px;
+    }
+    .padding-top-xs-36-i {
+        padding-top: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-48 {
+        padding-top: 48px;
+    }
+    .padding-top-xs-48-i {
+        padding-top: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-60 {
+        padding-top: 60px;
+    }
+    .padding-top-xs-60-i {
+        padding-top: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-72 {
+        padding-top: 72px;
+    }
+    .padding-top-xs-72-i {
+        padding-top: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-84 {
+        padding-top: 84px;
+    }
+    .padding-top-xs-84-i {
+        padding-top: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-xs-96 {
+        padding-top: 96px;
+    }
+    .padding-top-xs-96-i {
+        padding-top: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-12 {
+        padding-bottom: 12px;
+    }
+    .padding-bottom-xs-12-i {
+        padding-bottom: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-24 {
+        padding-bottom: 24px;
+    }
+    .padding-bottom-xs-24-i {
+        padding-bottom: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-36 {
+        padding-bottom: 36px;
+    }
+    .padding-bottom-xs-36-i {
+        padding-bottom: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-48 {
+        padding-bottom: 48px;
+    }
+    .padding-bottom-xs-48-i {
+        padding-bottom: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-60 {
+        padding-bottom: 60px;
+    }
+    .padding-bottom-xs-60-i {
+        padding-bottom: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-72 {
+        padding-bottom: 72px;
+    }
+    .padding-bottom-xs-72-i {
+        padding-bottom: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-84 {
+        padding-bottom: 84px;
+    }
+    .padding-bottom-xs-84-i {
+        padding-bottom: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-bottom-xs-96 {
+        padding-bottom: 96px;
+    }
+    .padding-bottom-xs-96-i {
+        padding-bottom: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-12 {
+        padding: 12px;
+    }
+    .padding-xs-12-i {
+        padding: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-24 {
+        padding: 24px;
+    }
+    .padding-xs-24-i {
+        padding: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-36 {
+        padding: 36px;
+    }
+    .padding-xs-36-i {
+        padding: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-48 {
+        padding: 48px;
+    }
+    .padding-xs-48-i {
+        padding: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-60 {
+        padding: 60px;
+    }
+    .padding-xs-60-i {
+        padding: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-72 {
+        padding: 72px;
+    }
+    .padding-xs-72-i {
+        padding: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-84 {
+        padding: 84px;
+    }
+    .padding-xs-84-i {
+        padding: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-xs-96 {
+        padding: 96px;
+    }
+    .padding-xs-96-i {
+        padding: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-12 {
+        padding-left: 12px;
+    }
+    .padding-left-xs-12-i {
+        padding-left: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-24 {
+        padding-left: 24px;
+    }
+    .padding-left-xs-24-i {
+        padding-left: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-36 {
+        padding-left: 36px;
+    }
+    .padding-left-xs-36-i {
+        padding-left: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-48 {
+        padding-left: 48px;
+    }
+    .padding-left-xs-48-i {
+        padding-left: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-60 {
+        padding-left: 60px;
+    }
+    .padding-left-xs-60-i {
+        padding-left: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-72 {
+        padding-left: 72px;
+    }
+    .padding-left-xs-72-i {
+        padding-left: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-84 {
+        padding-left: 84px;
+    }
+    .padding-left-xs-84-i {
+        padding-left: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-left-xs-96 {
+        padding-left: 96px;
+    }
+    .padding-left-xs-96-i {
+        padding-left: 96px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-12 {
+        padding-right: 12px;
+    }
+    .padding-right-xs-12-i {
+        padding-right: 12px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-24 {
+        padding-right: 24px;
+    }
+    .padding-right-xs-24-i {
+        padding-right: 24px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-36 {
+        padding-right: 36px;
+    }
+    .padding-right-xs-36-i {
+        padding-right: 36px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-48 {
+        padding-right: 48px;
+    }
+    .padding-right-xs-48-i {
+        padding-right: 48px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-60 {
+        padding-right: 60px;
+    }
+    .padding-right-xs-60-i {
+        padding-right: 60px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-72 {
+        padding-right: 72px;
+    }
+    .padding-right-xs-72-i {
+        padding-right: 72px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-84 {
+        padding-right: 84px;
+    }
+    .padding-right-xs-84-i {
+        padding-right: 84px !important;
+    }
+}
+@media (max-width: 767px) {
+    .padding-right-xs-96 {
+        padding-right: 96px;
+    }
+    .padding-right-xs-96-i {
+        padding-right: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-12 {
+        margin: 12px;
+    }
+    .margin-sm-12-i {
+        margin: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-24 {
+        margin: 24px;
+    }
+    .margin-sm-24-i {
+        margin: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-36 {
+        margin: 36px;
+    }
+    .margin-sm-36-i {
+        margin: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-48 {
+        margin: 48px;
+    }
+    .margin-sm-48-i {
+        margin: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-60 {
+        margin: 60px;
+    }
+    .margin-sm-60-i {
+        margin: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-72 {
+        margin: 72px;
+    }
+    .margin-sm-72-i {
+        margin: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-84 {
+        margin: 84px;
+    }
+    .margin-sm-84-i {
+        margin: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-sm-96 {
+        margin: 96px;
+    }
+    .margin-sm-96-i {
+        margin: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-12 {
+        margin-top: 12px;
+    }
+    .margin-top-sm-12-i {
+        margin-top: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-24 {
+        margin-top: 24px;
+    }
+    .margin-top-sm-24-i {
+        margin-top: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-36 {
+        margin-top: 36px;
+    }
+    .margin-top-sm-36-i {
+        margin-top: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-48 {
+        margin-top: 48px;
+    }
+    .margin-top-sm-48-i {
+        margin-top: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-60 {
+        margin-top: 60px;
+    }
+    .margin-top-sm-60-i {
+        margin-top: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-72 {
+        margin-top: 72px;
+    }
+    .margin-top-sm-72-i {
+        margin-top: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-84 {
+        margin-top: 84px;
+    }
+    .margin-top-sm-84-i {
+        margin-top: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-top-sm-96 {
+        margin-top: 96px;
+    }
+    .margin-top-sm-96-i {
+        margin-top: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-12 {
+        margin-bottom: 12px;
+    }
+    .margin-bottom-sm-12-i {
+        margin-bottom: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-24 {
+        margin-bottom: 24px;
+    }
+    .margin-bottom-sm-24-i {
+        margin-bottom: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-36 {
+        margin-bottom: 36px;
+    }
+    .margin-bottom-sm-36-i {
+        margin-bottom: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-48 {
+        margin-bottom: 48px;
+    }
+    .margin-bottom-sm-48-i {
+        margin-bottom: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-60 {
+        margin-bottom: 60px;
+    }
+    .margin-bottom-sm-60-i {
+        margin-bottom: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-72 {
+        margin-bottom: 72px;
+    }
+    .margin-bottom-sm-72-i {
+        margin-bottom: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-84 {
+        margin-bottom: 84px;
+    }
+    .margin-bottom-sm-84-i {
+        margin-bottom: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .margin-bottom-sm-96 {
+        margin-bottom: 96px;
+    }
+    .margin-bottom-sm-96-i {
+        margin-bottom: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-12 {
+        padding-top: 12px;
+    }
+    .padding-top-sm-12-i {
+        padding-top: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-24 {
+        padding-top: 24px;
+    }
+    .padding-top-sm-24-i {
+        padding-top: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-36 {
+        padding-top: 36px;
+    }
+    .padding-top-sm-36-i {
+        padding-top: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-48 {
+        padding-top: 48px;
+    }
+    .padding-top-sm-48-i {
+        padding-top: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-60 {
+        padding-top: 60px;
+    }
+    .padding-top-sm-60-i {
+        padding-top: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-72 {
+        padding-top: 72px;
+    }
+    .padding-top-sm-72-i {
+        padding-top: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-84 {
+        padding-top: 84px;
+    }
+    .padding-top-sm-84-i {
+        padding-top: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-top-sm-96 {
+        padding-top: 96px;
+    }
+    .padding-top-sm-96-i {
+        padding-top: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-12 {
+        padding-bottom: 12px;
+    }
+    .padding-bottom-sm-12-i {
+        padding-bottom: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-24 {
+        padding-bottom: 24px;
+    }
+    .padding-bottom-sm-24-i {
+        padding-bottom: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-36 {
+        padding-bottom: 36px;
+    }
+    .padding-bottom-sm-36-i {
+        padding-bottom: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-48 {
+        padding-bottom: 48px;
+    }
+    .padding-bottom-sm-48-i {
+        padding-bottom: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-60 {
+        padding-bottom: 60px;
+    }
+    .padding-bottom-sm-60-i {
+        padding-bottom: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-72 {
+        padding-bottom: 72px;
+    }
+    .padding-bottom-sm-72-i {
+        padding-bottom: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-84 {
+        padding-bottom: 84px;
+    }
+    .padding-bottom-sm-84-i {
+        padding-bottom: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-bottom-sm-96 {
+        padding-bottom: 96px;
+    }
+    .padding-bottom-sm-96-i {
+        padding-bottom: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-12 {
+        padding: 12px;
+    }
+    .padding-sm-12-i {
+        padding: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-24 {
+        padding: 24px;
+    }
+    .padding-sm-24-i {
+        padding: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-36 {
+        padding: 36px;
+    }
+    .padding-sm-36-i {
+        padding: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-48 {
+        padding: 48px;
+    }
+    .padding-sm-48-i {
+        padding: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-60 {
+        padding: 60px;
+    }
+    .padding-sm-60-i {
+        padding: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-72 {
+        padding: 72px;
+    }
+    .padding-sm-72-i {
+        padding: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-84 {
+        padding: 84px;
+    }
+    .padding-sm-84-i {
+        padding: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-sm-96 {
+        padding: 96px;
+    }
+    .padding-sm-96-i {
+        padding: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-12 {
+        padding-left: 12px;
+    }
+    .padding-left-sm-12-i {
+        padding-left: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-24 {
+        padding-left: 24px;
+    }
+    .padding-left-sm-24-i {
+        padding-left: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-36 {
+        padding-left: 36px;
+    }
+    .padding-left-sm-36-i {
+        padding-left: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-48 {
+        padding-left: 48px;
+    }
+    .padding-left-sm-48-i {
+        padding-left: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-60 {
+        padding-left: 60px;
+    }
+    .padding-left-sm-60-i {
+        padding-left: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-72 {
+        padding-left: 72px;
+    }
+    .padding-left-sm-72-i {
+        padding-left: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-84 {
+        padding-left: 84px;
+    }
+    .padding-left-sm-84-i {
+        padding-left: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-left-sm-96 {
+        padding-left: 96px;
+    }
+    .padding-left-sm-96-i {
+        padding-left: 96px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-12 {
+        padding-right: 12px;
+    }
+    .padding-right-sm-12-i {
+        padding-right: 12px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-24 {
+        padding-right: 24px;
+    }
+    .padding-right-sm-24-i {
+        padding-right: 24px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-36 {
+        padding-right: 36px;
+    }
+    .padding-right-sm-36-i {
+        padding-right: 36px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-48 {
+        padding-right: 48px;
+    }
+    .padding-right-sm-48-i {
+        padding-right: 48px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-60 {
+        padding-right: 60px;
+    }
+    .padding-right-sm-60-i {
+        padding-right: 60px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-72 {
+        padding-right: 72px;
+    }
+    .padding-right-sm-72-i {
+        padding-right: 72px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-84 {
+        padding-right: 84px;
+    }
+    .padding-right-sm-84-i {
+        padding-right: 84px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .padding-right-sm-96 {
+        padding-right: 96px;
+    }
+    .padding-right-sm-96-i {
+        padding-right: 96px !important;
+    }
+}
+.row {
+    margin-left: 0px;
+}
+/*
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 924px;
+}
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding-right: 0;
+    padding-left: 0;
+    background: #fff;
+}
+
+@media (max-width: 767px) {
+    .box {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        float: left;
+    }
+}
+.portabilidad {
+    position: relative;
+}
+.portabilidad .inner {
+    position: relative;
+    z-index: 100;
+}
+.portabilidad:after {
+    content: '';
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 0;
+}
+@media (max-width: 767px) {
+    .portabilidad:after {
+        height: 300px;
+    }
+}
+h1 {
+    margin: 0;
+    font-family: "TelefonicaWeb-Regular";
+    color: #00a9e0;
+    font-size: 2.57143em;
+    line-height: 100%;
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    h1 {
+        font-family: "TelefonicaWeb-Regular";
+        color: #00a9e0;
+        font-size: 22px;
+        line-height: 120%;
+        font-weight: 700;
+    }
+}
+h2 {
+    margin: 0;
+    font-family: "MovistarHeadlineBold";
+    font-size: 1.71429em;
+    line-height: 100%;
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    h2 {
+        font-family: "MovistarHeadlineBold";
+        font-size: 1.71429em;
+        line-height: 120%;
+        font-weight: normal;
+    }
+}
+h2.blue {
+    color: #00a9e0;
+}
+h2.white {
+    color: white;
+}
+h3 {
+    margin: 0;
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 1.5em;
+    line-height: 1.14286em;
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    h3 {
+        font-family: "TelefonicaWeb-Bold";
+        font-size: 1.5em;
+        line-height: 120%;
+        font-weight: normal;
+    }
+}
+h3.blue {
+    color: #00a9e0;
+}
+h3.white {
+    color: white;
+}
+h4 {
+    margin: 0;
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 1.21429em;
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    h4 {
+        font-family: "TelefonicaWeb-Bold";
+        font-size: 1.28571em;
+        font-weight: normal;
+    }
+}
+h4.blue {
+    color: #00a9e0;
+}
+h4.white {
+    color: white;
+}
+h4.grey-1 {
+    color: #5a5b6b;
+}
+p {
+    margin: 0;
+    font-family: "TelefonicaWeb-Light";
+    font-size: 0.92857em;
+    line-height: 1.71429em;
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    p {
+        font-family: "TelefonicaWeb-Light";
+        font-size: 1.14286em;
+        line-height: 120%;
+        font-weight: normal;
+    }
+}
+p strong {
+    font-family: "TelefonicaWeb-Regular";
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    p strong {
+        font-family: "TelefonicaWeb-Regular";
+        font-weight: bold;
+    }
+}
+p.white {
+    color: white;
+}
+p.grey-1 {
+    color: #5a5b6b;
+}
+.btn {
+    transition: all 0.3s ease 0s;
+}
+.btn2 {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    min-width: 220px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    font-size: 0.92857em;
+    line-height: 3.53846em;
+    font-weight: bold;
+    padding: 0 23px;
+    -webkit-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -o-border-radius: 3em;
+    border-radius: 3em;
+}
+.btn2:after {
+    content: "\e080";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    margin-top: -4px;
+    display: inline-block;
+    width: 6px;
+    height: 8px;
+}
+.btn2 span {
+    display: inline-block;
+    padding-right: 23px;
+}
+.btn2.bg-dark {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.btn2.bg-dark:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.btn2.bg-dark:after {
+    color: white;
+}
+.btn2.bg-clear {
+    color: #5c9bfa;
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid #E8E9E9;
+}
+.btn2.bg-clear:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid #F6F8FA;
+}
+.btn2.bg-clear:after {
+    color: #5c9bfa;
+}
+.btn2:hover {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .btn2.adjust-mobile {
+        padding: 0 15px;
+        letter-spacing: -0.5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .btn2.adjust-tablet {
+        padding: 0 15px;
+        letter-spacing: -0.5px;
+    }
+}
+.aui .btn2 {
+    overflow: hidden;
+    padding: 0 0;
+    line-height: 100%;
+    border: none;
+}
+.aui .btn2 span {
+    display: block;
+    zoom: 1;
+    margin: 0 0 0 23px;
+    line-height: 46px;
+    padding-right: 23px;
+}
+.aui .btn2.bg-dark span {
+    background: url("../img/bg-btn2-ie8-right.png") right top no-repeat;
+}
+.aui .btn2.bg-dark:after {
+    content: '';
+    background: url("../img/bg-btn2-ie8-left.png") left top no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 46px;
+    width: 23px;
+}
+.aui .btn2.bg-clear span {
+    background: url("../img/bg-btn2-ie8-right.png") right bottom no-repeat;
+}
+.aui .btn2.bg-clear:after {
+    content: '';
+    background: url("../img/bg-btn2-ie8-left.png") left bottom no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 46px;
+    width: 23px;
+}
+.btn2 {
+    behavior: url(PIE.php);
+}
+.link-simple {
+    font-family: "TelefonicaWeb-Regular";
+    color: #5c9bfa;
+    font-size: 0.92857em;
+    line-height: 1.71429em;
+    font-weight: bold;
+    display: inline-block;
+    zoom: 1;
+    padding-right: 26px;
+    position: relative;
+}
+.link-simple:after {
+    content: "\e080";
+    font-family: "Glyphicons Halflings";
+    color: #5c9bfa;
+    font-size: 0.7em;
+    line-height: 100%;
+    background-size: auto 100%;
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    margin-top: -3px;
+    display: inline-block;
+    width: 6px;
+    height: 8px;
+}
+.banner {
+    padding-left: 40px;
+    padding-right: 17px;
+}
+@media (max-width: 767px) {
+    .banner {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+}
+.banner .col-left {
+    width: 60%;
+    float: left;
+}
+@media (min-width: 1200px) {
+    .banner .col-left {
+        width: 570px;
+        float: left;
+    }
+}
+@media (max-width: 767px) {
+    .banner .col-left {
+        width: 100%;
+    }
+}
+.banner .col-right {
+    width: 40%;
+    float: right;
+}
+@media (min-width: 1200px) {
+    .banner .col-right {
+        width: 280px;
+        float: right;
+    }
+}
+@media (max-width: 767px) {
+    .banner .col-right {
+        width: 100%;
+    }
+}
+.width-100 {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .text-center-xs {
+        text-align: center;
+    }
+}
+.text-left-i {
+    text-align: left !important;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+@media (min-width: 980px) {
+    .pull-right-desktop {
+        float: right;
+    }
+}
+@media (min-width: 768px) {
+    .pull-right-no-mobile {
+        float: right;
+    }
+}
+@media (min-width: 768px) {
+    .pull-left-no-mobile {
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .width-auto-no-mobile {
+        width: auto;
+    }
+}
+.btn3 {
+    transition: all 0.3s ease 0s;
+    width: auto;
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    min-width: 220px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    color: null;
+    font-size: 13px;
+    line-height: 46px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 0 23px;
+    -webkit-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -o-border-radius: 3em;
+    border-radius: 3em;
+    text-decoration: none;
+    overflow: hidden \9;
+    padding: 0 0 \9;
+    line-height: 100% \9;
+    border: none \9;
+}
+.btn3:before {
+    content: "\e080";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    right: 23px;
+    top: 17px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 6px;
+    height: 8px;
+}
+.btn3 span {
+    display: inline-block;
+    padding-right: 23px;
+    display: block \9;
+    margin: 0 10px 0 23px \9;
+    line-height: 46px \9;
+    padding-right: 23px \9;
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    .btn3 span.text {
+        display: none;
+    }
+    .btn3 span.minMobile {
+        display: block;
+    }
+}
+@media (min-width: 371px) {
+    .btn3 span.text {
+        display: block;
+    }
+    .btn3 span.minMobile {
+        display: none;
+    }
+}
+.btn3.bg-dark {
+    color: #ffffff;
+    background-image: url("/img/t10b.png");
+    background-position: left top;
+    background-repeat: repeat;
+    background-color: null;
+    border: 1px solid #b9b7af;
+    background-color: transparent !important \9;
+}
+.btn3.bg-dark:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.btn3.bg-dark:after {
+    color: #ffffff;
+    content: "" \9;
+    background-image: url("bg-btn2-ie8-left.png") !important \9;
+    background-position: right center \9;
+    background-repeat: no-repeat \9;
+    position: absolute \9;
+    right: 0 \9;
+    top: 0 \9;
+    margin-top: 17px \9;
+    display: block \9;
+    height: 46px \9;
+    width: 23px \9;
+}
+.btn3.bg-dark span {
+    background-image: url("/img/t5b.png");
+    background-position: left top;
+    background-repeat: repeat;
+    background-color: null;
+    background-image: url("bg-btn2-ie8-left.png") \9;
+    background-position: right top \9;
+    background-repeat: no-repeat \9;
+}
+.btn3.bg-clear {
+    color: #5c9bfa;
+    background-image: url("/img/t2b.png");
+    background-position: left top;
+    background-repeat: repeat;
+    background-color: null;
+    border: 1px solid #E8E9E9;
+}
+.btn3.bg-clear:hover {
+    background-image: url("/img/t2b.png") \9;
+    background-position: left top \9;
+    background-repeat: repeat \9;
+    background-color: null \9;
+    border: 1px solid #F6F8FA;
+}
+.btn3.bg-clear:after {
+    color: #5c9bfa;
+    content: "" \9;
+    background-image: url("bg-btn2-ie8-right.png") \9;
+    background-position: left bottom \9;
+    background-repeat: no-repeat \9;
+    position: absolute \9;
+    left: 0 \9;
+    top: 0 \9;
+    margin-top: 17px \9;
+    display: block \9;
+    height: 46px \9;
+    width: 23px \9;
+}
+.btn3.bg-clear span {
+    background-image: url("bg-btn2-ie8-right.png") \9;
+    background-position: right bottom \9;
+    background-repeat: no-repeat \9;
+}
+.btn3:hover {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .btn3.adjust-mobile {
+        padding: 0 15px;
+        letter-spacing: -0.5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .btn3.adjust-tablet {
+        padding: 0 15px;
+        letter-spacing: -0.5px;
+    }
+}
+.btn3 {
+    behavior: url(PIE.php);
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .row-fluid [class*="span"] {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+.recarga-en-linea {
+    position: relative;
+}
+.recarga-en-linea h1 {
+    margin-left: 24px;
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .recarga-en-linea {
+        padding: 0px 30px;
+    }
+    .recarga-en-linea h1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .recarga-en-linea {
+        padding: 0px 0px;
+    }
+    .recarga-en-linea h1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+.recarga-en-linea:after {
+    content: '';
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 0;
+}
+.inner {
+    position: relative;
+    z-index: 100;
+}
+body {
+    background-color: #fff;
+}
+.box-principal {
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .box-principal {}
+}
+.error-img {
+    float: right;
+    margin-right: 15px;
+    margin-top: -50px;
+    position: relative;
+    width: 25px;
+    z-index: 3;
+    opacity: .5;
+    cursor: pointer;
+    display: none;
+}
+.error-img:hover {
+    opacity: 1;
+}
+#StepRecarga {
+    border-bottom: 1px solid #ecf0f6;
+    display: table;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    #StepRecarga {
+        border-bottom: 2px solid #72CFEE;
+    }
+}
+#StepRecarga .table-row {
+    display: table-row;
+}
+#StepRecarga .table-row div {
+    width: 33.333%;
+    text-align: center;
+    display: table-cell;
+    position: relative;
+    color: #5a5b6b;
+    padding-bottom: 12px;
+}
+@media (max-width: 767px) {
+    #StepRecarga .table-row div {
+        width: auto;
+        padding: 0px 10px 12px;
+    }
+}
+#StepRecarga .table-row div h4,
+#StepRecarga .table-row div a {
+    font-family: "TelefonicaWeb-Light";
+    color: #5a5b6b;
+    font-size: 1.21429em;
+    line-height: 1.2;
+    font-weight: 100;
+}
+@media (max-width: 767px) {
+    #StepRecarga .table-row div h4,
+    #StepRecarga .table-row div a {
+        font-size: 13px;
+    }
+}
+#StepRecarga .table-row div.active {
+    background-color: #00a9e0;
+    position: relative;
+}
+#StepRecarga .table-row div.active h4 {
+    font-family: "TelefonicaWeb-Bold";
+    color: #ffffff;
+    font-weight: 400;
+}
+#StepRecarga .table-row div.active:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #FFF;
+    position: absolute;
+    bottom: -2px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+#StepRecarga .table-row div.past {
+    background-color: #a4c7fb;
+}
+#StepRecarga .table-row div.past h4,
+#StepRecarga .table-row div.past a {
+    font-family: "TelefonicaWeb-Regular";
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+#StepRecarga .table-row div.second:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 15px;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: absolute;
+    background-color: #cdd1da;
+}
+#StepRecarga .table-row div.second p {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 15px;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: absolute;
+    background-color: #cdd1da;
+}
+.link-new-recarga a,
+.link-new-recarga a:hover,
+.linkcargaMilinea a,
+.linkcargaMilinea a:hover {
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    color: #355C81;
+    font-size: 23px;
+    border-top: 5px solid #ECF0F6;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    font-family: "TelefonicaWeb-Light";
+    text-decoration: none;
+}
+form {
+    margin: 0 0 30px;
+    overflow: hidden;
+}
+.seleccion {
+    max-width: 410px;
+    margin: 30px auto 0px;
+}
+@media (max-width: 767px) {
+    .seleccion {
+        padding: 0px 10px;
+        margin: 10px auto 0px;
+		
+    }
+}
+.seleccion label,
+.seleccion p {
+    font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+    font-size: 13px;
+    line-height: 46px;
+    font-weight: 600;
+    padding: 0px;
+}
+@media (max-width: 767px) {
+    .seleccion p {
+        font-weight: 300;
+        padding-bottom: 5px;
+    }
+    .seleccion label {
+        line-height: 34px;
+    }
+}
+.seleccion .rounded,
+select {
+    width: 100%;
+    background: white;
+    height: 58px;
+    line-height: 58px;
+    border: 1px solid #e6e9ed;
+    margin-right: 18px;
+    zoom: 1;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    behavior: url(PIE.php);
+}
+.seleccion .rounded:focus {
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .seleccion .rounded {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+.seleccion .numero-hogar .codigo-area {
+    position: relative;
+    width: 70px;
+    height: 48px;
+    overflow: hidden;
+    background-image: url(../img/arrow-select.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #e6e9ed;
+    float: left;
+}
+.seleccion .numero-hogar .codigo-area select {
+    width: 100px;
+    background: transparent;
+    height: 48px;
+    border: 0px;
+    float: left;
+    position: relative;
+    padding: 13px 10px;
+}
+.seleccion .numero-hogar .numero {
+    margin-left: 85px;
+    position: relative;
+}
+.seleccion .confirmar-hogar {
+    padding-top: 36px;
+}
+.seleccion .nav-tabs {
+    border: 1px solid #e8eaee;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.seleccion .nav-tabs li {
+    width: 50%;
+}
+.seleccion .nav-tabs li:first-child {
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -ms-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    -o-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+}
+.seleccion .nav-tabs li a {
+    font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px;
+    outline: 0;
+    -webkit-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+@media (max-width: 767px) {
+    .seleccion .nav-tabs li a {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+.seleccion .nav-tabs li a .content-ico {
+    margin: 4px auto 0px;
+    width: 55px;
+    height: 35px;
+    float: left;
+}
+@media (max-width: 767px) {
+    .seleccion .nav-tabs li a .content-ico {
+        display: none;
+    }
+}
+.seleccion .nav-tabs li a .content-ico img {
+    width: auto;
+    height: 20px;
+}
+.seleccion .nav-tabs li.active a {
+    background-color: #5c9bfa;
+    border-color: #5c9bfa;
+    position: relative;
+    color: #ffffff;
+    font-weight: 600;
+}
+.seleccion .nav-tabs li.active a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 8px solid #5c9bfa;
+    position: absolute;
+    bottom: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.seleccion .nav-tabs li:last-child a {
+    -webkit-border-radius: 0px 4px 4px 0px;
+    -ms-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+    -o-border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 4px 4px 0px;
+}
+.seleccion .tab-content {
+    overflow: visible;
+}
+.step-pago p {
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 300;
+    margin-bottom: 21px;
+}
+.step-pago .checked p {
+    color: #fff;
+}
+.step-pago form {
+    margin: 0px;
+}
+.step-pago .verificar {
+    font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid #dee0e6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.step-pago .verificar span {
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 17px;
+    margin-left: 10px;
+}
+.step-pago .radio {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    margin: 0;
+    font-family: "TelefonicaWeb-ExtraLight";
+    color: #656d78;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+@media (max-width: 767px) {
+    .step-pago .radio {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+}
+.step-pago .radio input[type="radio"] {
+    position: absolute;
+    left: -30px;
+    visibility: hidden;
+}
+.step-pago .radio input[type="radio"] + span {
+    padding-left: 25px;
+    height: 22px;
+    display: block;
+    background-image: url(../img/radio.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+.step-pago .radio.checked input[type="radio"] + span {
+    font-family: "TelefonicaWeb-Bold";
+    background-image: url(../img/radio-check.png);
+}
+.step-pago .radio.deshabilitado {
+    cursor: not-allowed;
+}
+.step-pago .radio.deshabilitado p {
+    color: #ccc;
+}
+.step-pago .monto-recarga {
+    margin: 24px 19px 0px;
+}
+@media (max-width: 767px) {
+    .step-pago .monto-recarga {
+        margin: 24px 10px 0px;
+    }
+    .step-pago .monto-recarga p {
+        margin-left: 20px;
+    }
+}
+.step-pago.step-pago-green .monto-recarga .radio {
+    margin-right: 0;
+    min-height: 30px;
+    padding: 25px 14px;
+    line-height: 20px;
+    border: 1px solid #dee0e6;
+    width: 30.5%;
+    margin: 1%;
+}
+.step-pago.step-pago-green .radio input[type="radio"] + span {
+    padding-left: 30px;
+    display: block;
+    background-image: url(../img/u1082.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    font-size: 28px;
+}
+.step-pago.step-pago-green .radio.checked input[type="radio"] + span {
+    font-family: "TelefonicaWeb-ExtraLight";
+    background-image: url(../img/u1091.png);
+}
+.step-pago.step-pago-green .monto-recarga .radio.checked {
+    background: #00a9e0;
+    color: #fff;
+    border-color: #00a9e0;
+}
+.step-pago.step-pago-green .radio {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    margin: 0;
+    font-family: "TelefonicaWeb-ExtraLight";
+    color: #656d78;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    width: 30.5%;
+    float: left;
+    margin: 1%;
+    border: 1px solid #E4E4E4;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago {
+    border: 0;
+    margin-bottom: 20px;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago label {
+    display: block;
+    height: auto;
+    padding: 0px 20px;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago label input[type="radio"] + span .logo-pago {
+    float: none;
+    height: 115px;
+    padding: 5px 0px;
+    position: relative;
+    width: 115px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago label input[type="radio"] + span {
+    height: 115px;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago label:nth-child(odd) {
+    background: transparent;
+}
+/*Deshabilitado*/
+
+.step-pago.step-pago-green .seleccion-pago #TipoPago #label-servipag.deshabilitado {
+    background: #f3f3f3;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago #label-servipag.deshabilitado input[type="radio"] + span .logo-pago {
+    height: auto;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago #label-servipag.deshabilitado input[type="radio"] + span p {
+    padding-top: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+.step-pago.step-pago-green .seleccion-pago #TipoPago label.checked {
+    background: #00a9e0;
+    color: #fff;
+}
+.row-fluid .step-pago.step-pago-green button.btn-block {
+    margin-bottom: 30px;
+}
+.step-pago.step-pago-green .monto-recarga .radio span.especial {
+    font-size: 20px;
+    width: 100%;
+    padding-left: 0;
+    background: none;
+    position: relative;
+    top: -8px;
+}
+.step-pago.step-pago-green .monto-recarga .radio.checked span.especial {
+    background-image: url(../img/u1091.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 22px;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+.step-pago.step-pago-green .monto-recarga .radio.checked span.especial .onlyText {
+    display: none;
+}
+/**** step green***/
+
+.step-pago .monto-recarga .radio {
+    margin-right: 0;
+    min-height: 30px;
+    padding: 20px 14px;
+    line-height: 20px;
+    border: 1px solid #dee0e6;
+    width: 16%;
+}
+.step-pago.step-pago-green .monto-recarga .radio {
+    width: 30%;
+    margin: 1%;
+}
+@media (max-width: 767px) {
+    .step-pago .monto-recarga .radio {
+        float: left;
+        margin: 1%;
+        padding: 20px;
+        width: 31%;
+    }
+}
+.step-pago .monto-recarga .radio span.especial {
+    font-size: 13px;
+    width: 100px;
+    line-height: 1;
+    margin-top: 0px;
+    padding-left: 0;
+    background-image: none;
+    text-align: center;
+}
+.step-pago .monto-recarga .radio.checked {
+    background: #5c9bfa;
+    color: #fff;
+    border-color: #5c9bfa;
+}
+.step-pago .monto-recarga .radio#monto-personalizado.checked {
+    padding: 0;
+    border: 0;
+    background: none;
+}
+.sep-bottom {
+    margin-top: 20px!important;
+}
+.step-pago.step-pago-green .monto-recarga .radio#monto-personalizado.checked {
+    padding: 15px 14px;
+    border: 0;
+    overflow: visible;
+    background: #00a9e0;
+}
+.step-pago .seleccion-pago {
+    border-top: 1px dashed #ccc;
+    margin-top: 20px;
+    padding: 30px 24px 0;
+}
+@media (max-width: 767px) {
+    .step-pago .seleccion-pago {
+        padding: 10px 18px 10px;
+        display: none;
+    }
+    .step-pago .seleccion-pago-web {
+        display: block;
+        padding: 10px 18px 18px 18px;
+    }
+}
+.step-pago .seleccion-pago #TipoPago {
+    border: 1px solid #dee0e6;
+    margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+    .step-pago .seleccion-pago #TipoPago {
+        margin-bottom: 30px;
+    }
+}
+.step-pago .seleccion-pago #TipoPago label {
+    display: block;
+    height: 70px;
+    padding: 0px 20px;
+}
+.step-pago .seleccion-pago #TipoPago label:nth-child(even) {
+    background: #fff;
+}
+.step-pago .seleccion-pago #TipoPago label:nth-child(odd) {
+    background: #f6f8fa;
+}
+.step-pago .seleccion-pago #TipoPago label.checked {
+    background: #5c9bfa;
+    color: #fff;
+}
+.step-pago .seleccion-pago #TipoPago label input[type="radio"] + span {
+    height: 70px;
+}
+.step-pago .seleccion-pago #TipoPago label input[type="radio"] + span .logo-pago {
+    display: block;
+    float: left;
+    height: 70px;
+    margin-right: 10px;
+    padding: 15px 5px;
+    position: relative;
+    width: 84px;
+}
+@media (max-width: 767px) {
+    .step-pago .seleccion-pago #TipoPago label input[type="radio"] + span .logo-pago {
+        height: 70px;
+        width: 50px;
+        margin-right: 14px;
+    }
+}
+.step-pago .seleccion-pago #TipoPago label input[type="radio"] + span p {
+    padding-top: 22px;
+    font-family: "TelefonicaWeb-Light";
+    line-height: 24px;
+    font-weight: 300;
+}
+@media (max-width: 767px) {
+    .step-pago .seleccion-pago #TipoPago label input[type="radio"] + span p {
+        font-family: "TelefonicaWeb-Light";
+        line-height: 14px;
+        font-weight: 300;
+    }
+}
+.step-pago .seleccion-pago #TipoPago label.checked input[type="radio"] + span .logo-pago img {
+    -webkit-filter: grayscale(0);
+    /* Webkit */
+    
+    filter: grayscale(0);
+    /* W3C */
+    
+    filter: none;
+}
+.step-pago .seleccion-pago #TipoPago label.disabled-pago {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.step-pago .seleccion-pago #TipoPago label.disabled-pago input[type="radio"] {
+    cursor: not-allowed;
+}
+.step-pago .seleccion-pago #TipoPago label.disabled-pago input[type="radio"] .logo-pago img {
+    -webkit-filter: grayscale(0);
+    /* Webkit */
+    
+    filter: grayscale(0);
+    /* W3C */
+    
+    filter: none;
+}
+.oferta-web {
+    background: url("../img/bg-oferta-web.png") right no-repeat transparent;
+    background-size: auto 100%;
+    background-size: cover;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    min-height: 288px;
+    background: url(../img/bg-oferta-web-ie.png) no-repeat right top \9;
+}
+.oferta-web h4 {
+    font-family: "TelefonicaWeb-Regular";
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 600;
+}
+.oferta-web ul {
+    list-style: none;
+    margin: 24px 0px 0px;
+}
+.oferta-web li {
+    font-family: "TelefonicaWeb-Regular";
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 600;
+    padding-left: 20px;
+    position: relative;
+    max-width: 270px;
+}
+.oferta-web li:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.oferta-web .ribbon {
+    font-family: "TelefonicaWeb-Regular";
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    background-color: #238937;
+    height: 24px;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0px 15px 0px 10px;
+    margin-top: 24px;
+}
+.oferta-web .ribbon:before {
+    content: ' ';
+    position: absolute;
+    width: 0px;
+    height: 0;
+    top: 0px;
+    left: -20px;
+    border-width: 12px 10px;
+    border-style: solid;
+    border-color: #238937 #238937 #238937 transparent;
+}
+.oferta-web .ribbon:after {
+    content: ' ';
+    position: absolute;
+    width: 0px;
+    height: 0;
+    top: 0px;
+    right: -20px;
+    border-width: 12px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #238937;
+}
+.oferta-web .ribbon:first-child {
+    background-color: #5BC500;
+}
+.oferta-web .ribbon:first-child:before {
+    border-color: #5BC500 #5BC500 #5BC500 transparent;
+}
+.oferta-web .ribbon:first-child:after {
+    border-color: transparent transparent transparent #5BC500;
+}
+@media (max-width: 767px) {
+    .oferta-web {
+        display: none;
+    }
+}
+.medios-de-pago {
+    background-color: #fff;
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-top: 24px;
+    text-align: center;
+    overflow: hidden;
+}
+.medios-de-pago p {
+    text-align: left;
+    line-height: 1.2;
+}
+.footer-text {
+    width: 30%;
+    border-right: 1px solid #ECF0F6;
+}
+.medios-col {
+    padding: 15px 25px;
+}
+.medios-de-pago img {
+    margin: 4px;
+}
+.row-fluid [class*="span"] {
+    min-height: 0;
+}
+#asignarMonto {
+    font-size: 19px;
+    height: 44px;
+    margin: 0;
+    padding-left: 20px;
+    width: 100%;
+}
+.step-pago.step-pago-green #asignarMonto {
+    width: 65%;
+    float: left;
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .medios-de-pago {}
+}
+@media (max-width: 767px) {
+    .footer-text {
+        border-right: 0;
+        border-bottom: 1px solid #ECF0F6;
+    }
+    .medios-de-pago p {
+        font-size: 15px;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+}
+#asignarMonto.error {
+    border-color: #FD4A5B;
+}
+#mPersonalizado {
+    color: #aaa;
+    font-size: 11px;
+    text-align: center;
+}
+#signo-peso {
+    bottom: 10px;
+    color: #888;
+    float: left;
+    left: 8px;
+    position: absolute;
+}
+.step-pago.step-pago-green #signo-peso {
+    position: static;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+@media (max-width: 767px) {
+    #signo-peso {
+        bottom: 12px;
+    }
+}
+.desaparece {
+    display: none !important;
+}
+.numerosBam,
+.numero-hogar {
+    position: relative;
+}
+.numerosBam input,
+.numero-hogar input,
+select {
+    font-family: "TelefonicaWeb-ExtraLight";
+    font-size: 38px;
+    padding: 0 20px;
+}
+.numerosBam input::-moz-placeholder,
+.numero-hogar input::-moz-placeholder {
+    font-family: "TelefonicaWeb-ExtraLight";
+    font-size: 38px;
+    color: #d0cdcc;
+    line-height: 54px;
+}
+.numerosBam input::-webkit-input-placeholder,
+.numero-hogar input::-webkit-input-placeholder {
+    font-family: "TelefonicaWeb-ExtraLight";
+    font-size: 38px;
+    color: #d0cdcc;
+    line-height: 1.3;
+    position: relative;
+    bottom: 7px;
+}
+.numerosBam input:-ms-input-placeholder,
+.numero-hogar input:-ms-input-placeholder {
+    font-family: "TelefonicaWeb-Light";
+    font-size: 18px;
+    color: #d0cdcc;
+    line-height: 1.3;
+    position: relative;
+    bottom: 7px;
+}
+.verificaNumero {
+    display: none;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    right: 10px;
+    margin-top: -12px;
+    background-color: #FD4A5B;
+    color: #fff;
+    padding: 5px 20px;
+    z-index: 9999;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    behavior: url(PIE.php);
+}
+.verificaNumero:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 7px solid #FD4A5B;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    left: 15px;
+    top: -7px;
+}
+#btn-recargar.deshabilitado,
+#btn-mail-comprobante.deshabilitado {
+    background: #ccc;
+}
+.link-recargar {
+    padding: 10px 4% 0;
+    overflow: hidden;
+}
+input.btn-block.disabled {
+    background-color: #cdd1da;
+}
+.row-fluid input.btn-block,
+.row-fluid button.btn-block {
+    float: right;
+    width: 60%;
+    font-size: 15px;
+}
+@media (max-width: 767px) {
+    .row-fluid input.btn-block,
+    .row-fluid button.btn-block {
+        /*width: 100%;*/
+        
+        width: auto;
+        float: none;
+        margin: 0 auto
+    }
+}
+#msg-error-monto-personalizado::before {
+    border-bottom: 0;
+    border-top: 7px solid #fd4a5b;
+    top: 100%;
+}
+#msg-error-monto-personalizado {
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: -64px;
+    padding: 3px 5px;
+    right: 0;
+}
+.step-pago.step-pago-green #msg-error-monto-personalizado {
+    left: 54px;
+    bottom: 70%;
+    right: inherit;
+    margin-top: 0;
+}
+#msg-error-servipag,
+#msg-error-servipag::before {
+    right: auto;
+}
+.servipag-medio-de-pago {
+    display: none;
+}
+.exito p,
+.banner-bolsa-app p {
+    font-size: 16px;
+	line-height:22px;
+}
+.exito div.banner-bolsa {
+    border: 1px solid #ccc;
+    background: #FBFBFB;
+    margin: 20px 0;
+    padding: 15px;
+    text-align: left;
+}
+.exito div.banner-bolsa p {
+    margin: 0;
+}
+@media (max-width: 767px) {
+    .exito div.banner-bolsa p {
+        font-size: 14px;
+    }
+}
+.exito div.banner-bolsa .llamado {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.exito div.banner-bolsa .nombre-bolsa {
+    color: #00a9e0;
+    float: left;
+    font-size: 23px;
+    width: 50%;
+    line-height: 1.2;
+    padding: 20px 0;
+}
+@media (max-width: 767px) {
+    .exito div.banner-bolsa .nombre-bolsa {
+        font-size: 18px;
+        padding: 10px 0 0;
+        text-align: center !important;
+        width: 100%;
+    }
+}
+.exito div.banner-bolsa .nombre-bolsa strong {
+    display: block;
+}
+.exito div.banner-bolsa .precio {
+    font-family: "TelefonicaWeb-ExtraLight";
+    color: #656d78;
+    font-size: 19px;
+    line-height: 16px;
+    font-weight: 300;
+    text-align: center !important;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+@media (max-width: 767px) {
+    .exito div.banner-bolsa .precio {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
+.exito div.banner-bolsa .precio strong {
+    font-size: 35px;
+    font-family: "TelefonicaWeb-ExtraLight";
+    font-weight: 300;
+}
+.exito div.banner-bolsa .precio span {
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+}
+@media (max-width: 767px) {
+    .exito div.banner-bolsa .precio span {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
+.clear {
+    clear: both;
+}
+.ayuda-television {
+    color: #888;
+    display: block;
+    font-size: 12px;
+    margin: -5px 0 8px;
+}
+.ver-mas {
+    border-bottom: 1px dashed #ddd;
+    font-size: 13px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+@media (max-width: 767px) {
+    .ver-mas {
+        margin-top: 15px !important;
+    }
+}
+#iframe-pago {
+    border: 0 none;
+    height: 100%;
+    margin: 0;
+    min-height: 560px;
+    width: 100%;
+}
+.sin-padding {
+    padding-bottom: 0;
+}
+@media all and (min-width: 960px) and (max-width: 1200px) {
+    .step-pago .radio {
+        font-size: 14px;
+    }
+    .step-pago .monto-recarga .radio {
+        padding: 20px 8px;
+    }
+    #StepRecarga .table-row div h4,
+    #StepRecarga .table-row div a {
+        font-size: 1em;
+    }
+    .step-pago .monto-recarga .radio span.especial {}
+}
+@media all and (min-width: 220px) and (max-width: 460px) {
+    .step-pago .monto-recarga .radio {
+        width: 48%;
+    }
+    .step-pago .checked p {
+        font-size: 17px;
+    }
+    .step-pago .seleccion-pago #TipoPago label,
+    .step-pago.step-pago-green .seleccion-pago #TipoPago label {
+        padding: 0 10px;
+    }
+}
+@media all and (max-width: 360px) {
+    .step-pago .radio p {
+        font-size: 14px;
+    }
+    .step-pago .seleccion-pago #TipoPago label input[type="radio"] + span .logo-pago {
+        height: 70px;
+        margin-right: 5px;
+        margin-top: 6px;
+        width: 45px;
+    }
+}
+.modal-backdrop {
+    background-color: rgba(236, 240, 246, 0.8);
+    background: url(../img/modal-ie.png) repeat \9;
+}
+.modal {
+    box-shadow: none;
+    border: 0px;
+}
+.modal.fade.in {
+    top: 35%;
+}
+.centrar-mensaje {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    text-align: center;
+}
+.centrar-mensaje div {
+    width: 100%;
+    max-width: 748px;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid #fcb613;
+    background-color: #fff;
+    position: relative;
+    padding: 40px;
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-weight: 100;
+}
+.centrar-mensaje div h4 {
+    font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+    line-height: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.centrar-mensaje div:before {
+    content: url(../img/ico-alerta.png);
+    display: block;
+    width: 68px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -26px;
+    margin: auto;
+}
+.centrar-mensaje button.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.cargando {
+    margin: 25px auto 0px;
+    text-align: center;
+    font-family: "TelefonicaWeb-Light";
+    color: #5a5b6b;
+    font-size: 15px;
+    line-height: 24px;
+}
+@media (max-width: 767px) {
+    .step-pago.step-pago-green .monto-recarga .radio {
+        width: 47.5%;
+    }
+    .step-pago.step-pago-green .radio input[type="radio"] + span {
+        padding-left: 30px;
+        font-size: 21px;
+    }
+    .step-pago.step-pago-green .monto-recarga .radio span.especial {
+        font-size: 18px;
+    }
+    .cargando {
+        margin-top: 36px;
+    }
+}
+.cargando .cabecera {
+    border-bottom: 1px solid #d3d7df;
+    padding-bottom: 25px;
+}
+.cargando .cabecera:last-child {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+@media (max-width: 767px) {
+    .cargando .cabecera:last-child {
+        padding-bottom: 20px;
+    }
+}
+.cargando .cabecera:last-child span {
+    display: block;
+    width: 100%;
+}
+.cargando .cabecera .numero {
+    font-family: "TelefonicaWeb-Light";
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 10px 0 0;
+}
+@media (max-width: 767px) {
+    .cargando .cabecera .numero {
+        margin-bottom: 5px;
+    }
+}
+.cargando .cabecera p {
+    font-family: "TelefonicaWeb-Regular";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.cargando .cabecera a {
+    margin-top: 28px;
+}
+.imagen-cargando {
+    padding: 60px 0;
+}
+.imagen-cargando img {
+    display: block;
+    margin: 0 auto 20px;
+}
+@media (max-width: 767px) {
+    .imagen-cargando img {
+        margin: 40px auto 0;
+    }
+}
+#mensaje-tardando {
+    border-top: 1px dashed #ccc;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 80%;
+    display: none;
+}
+.btn-back {
+    transition: all 0.3s ease 0s;
+    width: auto;
+    background: #fafafa;
+    border: 1px solid #ecedf1;
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    min-width: 220px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    color: #5C9BFA;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 46px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 0 20px 0 50px;
+    -webkit-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -o-border-radius: 3em;
+    border-radius: 3em;
+    behavior: url(PIE.php);
+    text-decoration: none;
+    overflow: hidden \9;
+    padding: 0 10px 0 55px \9;
+    line-height: 2.6 \9;
+    border: none \9;
+    margin: 0 auto \9;
+    border: 1px solid #dbdbdb \9;
+    height: 3em \9;
+}
+.btn-back:hover {
+    text-decoration: none;
+}
+.btn-back:before {
+    content: "";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    top: 5px \9;
+    margin-top: 0px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/ico-back.png);
+    background-repeat: no-repeat;
+}
+.btn-back span {
+    display: inline-block;
+    padding-right: 23px;
+    display: block \9;
+    margin: 0 10px 0 23px \9;
+    line-height: 46px \9;
+    padding-right: 23px \9;
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    .btn-back span.text {
+        display: none;
+    }
+    .btn-back span.minMobile {
+        display: block;
+    }
+}
+@media (min-width: 371px) {
+    .btn-back span.text {
+        display: block;
+    }
+    .btn-back span.minMobile {
+        display: none;
+    }
+}
+.problema-pago {
+    width: 100%;
+    border: 1px solid #e04857;
+    padding: 48px 20px 10px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: left;
+    position: relative;
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 24px;
+}
+@media (max-width: 767px) {
+    .problema-pago {
+        font-size: 13px;
+    }
+}
+.problema-pago h2 {
+    font-family: "TelefonicaWeb-Bold";
+    margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+    .problema-pago h2 {
+        font-size: 20px;
+    }
+}
+.problema-pago h4 {
+    font-family: "TelefonicaWeb-Bold";
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .problema-pago h4 {
+        font-size: 16px;
+    }
+}
+.problema-pago .claro {
+    opacity: 0.5;
+}
+.problema-pago p {
+    margin-bottom: 24px;
+}
+.problema-pago:before {
+    content: url(../img/ico-problem.png);
+    display: block;
+    width: 68px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -27px;
+    margin: auto;
+}
+.problema-pago:after {
+    content: url(../img/arrow-down-red.png);
+    display: block;
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.exito {
+    width: 100%;
+    border: 1px solid #5BC500;
+    padding: 48px 20px 10px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.exito .contenido-mensaje {
+    max-width: 500px;
+    margin: 0 auto;
+    max-width: 550px \9;
+}
+.exito .contenido-mensaje h4 {
+    font-family: "TelefonicaWeb-Bold";
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.exito .contenido-mensaje p {
+    margin-bottom: 24px;
+}
+.exito .contenido-mensaje:before {
+    content: url(../img/ico-success.png);
+    display: block;
+    /* width: 68px;
+    height: 51px; */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 10px;
+    margin: auto;
+}
+.exito .contenido-mensaje .clear {
+    clear: both;
+}
+.exito .contenido-mensaje .comprobantes {
+    border-top: 1px dotted #e4e6eb;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 24px;
+}
+.exito .contenido-mensaje .comprobantes p {
+    text-align: left;
+}
+.exito .contenido-mensaje .comprobantes p.obien {
+    position: absolute;
+    display: block;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: -10px auto 0px;
+    width: 60px;
+    background: #fff;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .exito .contenido-mensaje .comprobantes .btn-go2 {
+        display: block;
+        font-size: 12px;
+    }
+    .exito .contenido-mensaje .comprobantes .no-mobile {
+        display: none;
+    }
+}
+.half-form {
+    max-width: 500px;
+    margin: 0 auto;
+    max-width: 550px \9;
+}
+.half-form input.rounded {
+    border-right: 0 none;
+    float: left;
+    height: 58px;
+    margin: 0;
+    position: relative;
+    width: 60%;
+    zoom: 1;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -ms-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    -o-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+    behavior: url(PIE.php);
+}
+.half-form .btn-block {
+    -webkit-border-radius: 0px 4px 4px 0px;
+    -ms-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+    -o-border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 4px 4px 0px;
+    behavior: url(PIE.php);
+    width: 40% !important;
+    overflow: hidden;
+}
+.btn-block {
+    transition: all 0.3s ease 0s;
+    background-color: #5BC500;
+    width: 100%;
+    height: 58px;
+    margin-top: 48px;
+    zoom: 1;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    max-width: 410px;
+    margin: 0 auto;
+    display: block;
+    font-family: "TelefonicaWeb-Light";
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 58px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 0 23px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    behavior: url(PIE.php);
+    text-decoration: none;
+    border: 0px;
+}
+@media (max-width: 767px) {
+    .btn-block {
+        margin-top: 0px;
+    }
+}
+.btn-block:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-back-transparente {
+    background-color: #00a9e0;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    transition: all 0.3s ease 0s;
+    width: auto;
+    display: block;
+    zoom: 1;
+    z-index: 999;
+    position: relative;
+    max-width: 300px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    color: #fff;
+    font-size: 20px;
+    line-height: 41px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 15px 13px 10px 70px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+@media (max-width: 767px) {} .btn-back-transparente:hover {
+    color: #fff;
+}
+.btn-back-transparente:focus {
+    color: #fff;
+}
+.btn-back-transparente:before {
+    content: "";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/ico-back-white.png);
+    background-repeat: no-repeat;
+    border-right: 1px dashed #eee;
+    padding-right: 20px;
+}
+.btn-back-transparente span {
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.btn-go {
+    transition: all 0.3s ease 0s;
+    width: auto;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #ecedf1;
+    display: inline-block;
+    zoom: 1;
+    z-index: 999;
+    position: relative;
+    min-width: 220px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    color: #fff;
+    font-size: 13px;
+    line-height: 46px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 0 53px 0 23px;
+    -webkit-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -o-border-radius: 3em;
+    border-radius: 3em;
+    behavior: url(PIE.php);
+    text-decoration: none;
+    overflow: hidden \9;
+    padding: 0 20px \9;
+    line-height: 2.6 \9;
+    height: 3em \9;
+}
+.btn-go:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+}
+.btn-go:before {
+    content: "";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 6px;
+    height: 8px;
+    background-image: url(../img/arrow-button-white.png);
+    background-repeat: no-repeat;
+    top: 14px \9;
+}
+.btn-go span {
+    display: inline-block;
+    padding-right: 23px;
+    display: block \9;
+    margin: 0 10px 0 53px \9;
+    line-height: 46px \9;
+    padding-right: 23px \9;
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    .btn-go span.text {
+        display: none;
+    }
+    .btn-go span.minMobile {
+        display: block;
+    }
+}
+@media (min-width: 371px) {
+    .btn-go span.text {
+        display: block;
+    }
+    .btn-go span.minMobile {
+        display: none;
+    }
+}
+.btn-go2 {
+    transition: all 0.3s ease 0s;
+    width: auto;
+    height: 48px;
+    background: #fafafa;
+    border: 1px solid #ecedf1;
+    display: inline-block;
+    zoom: 1;
+    z-index: 999;
+    position: relative;
+    min-width: 210px;
+    text-align: left;
+    font-family: "TelefonicaWeb-Regular";
+    color: #5d9eff;
+    font-size: 13px;
+    line-height: 46px;
+    font-weight: bold;
+    text-transform: null;
+    padding: 0 43px 0 23px;
+    -webkit-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -o-border-radius: 3em;
+    border-radius: 3em;
+    behavior: url(PIE.php);
+    text-decoration: none;
+    overflow: hidden;
+    overflow: hidden \9;
+    padding: 0 20px \9;
+    line-height: 2.6 \9;
+    height: 3em \9;
+    min-width: 230px \9;
+}
+.btn-go2:hover {
+    background-color: #e4e4e4;
+    text-decoration: none;
+    color: #5d9eff;
+}
+.btn-go2:before {
+    content: "";
+    font-family: "Glyphicons Halflings";
+    font-size: 0.7em;
+    line-height: 100%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 6px;
+    height: 8px;
+    background-image: url(../img/arrow-button-blue.png);
+    background-repeat: no-repeat;
+    top: 14px \9;
+}
+.btn-go2 span {
+    display: inline-block;
+    padding-right: 23px;
+    display: block \9;
+    margin: 0 10px 0 53px \9;
+    line-height: 46px \9;
+    padding-right: 23px \9;
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    .btn-go2 span.text {
+        display: none;
+    }
+    .btn-go2 span.minMobile {
+        display: block;
+    }
+}
+@media (min-width: 371px) {
+    .btn-go2 span.text {
+        display: block;
+    }
+    .btn-go2 span.minMobile {
+        display: none;
+    }
+}
+.disabled {
+    cursor: default !important;
+    background-color: #cdd1da;
+}
+.body-azul {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNWM4NCIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwYzZkNyIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top, rgba(0, 92, 132, 0.9) 0%, rgba(0, 198, 215, 0.5) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 92, 132, 0.9)), color-stop(100%, rgba(0, 198, 215, 0.5)));
+    background: -webkit-linear-gradient(top, rgba(0, 92, 132, 0.9) 0%, rgba(0, 198, 215, 0.5) 100%);
+    background: -o-linear-gradient(top, rgba(0, 92, 132, 0.9) 0%, rgba(0, 198, 215, 0.5) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 92, 132, 0.9) 0%, rgba(0, 198, 215, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(0, 92, 132, 0.9) 0%, rgba(0, 198, 215, 0.5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e6005c84', endColorstr='#8000c6d7', GradientType=0);
+}
+.body-azul .nubes {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../img/bg-nubes.png);
+    background-size: cover;
+}
+.contenedor-comprobante {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto 60px;
+    text-align: center;
+    font-family: "TelefonicaWeb-Bold";
+    color: #ffffff;
+    font-size: 13px;
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante {
+        padding: 12px;
+        font-size: 12px;
+    }
+    .contenedor-comprobante p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    .contenedor-comprobante p a {
+        display: inline-block;
+        font-family: "TelefonicaWeb-Bold";
+    }
+}
+.contenedor-comprobante .logo {
+    width: 156px;
+    margin: 24px auto 0px;
+}
+.contenedor-comprobante .comprobante-online {
+    border: 3px solid #cdd2d9;
+    padding: 48px 31px 10px;
+    margin-top: 70px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    font-family: "TelefonicaWeb-Light";
+    color: #656d78;
+    font-size: 13px;
+    line-height: 24px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(PIE.php);
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante .comprobante-online {
+        padding: 24px 16px 10px;
+        margin-top: 36px;
+    }
+}
+.contenedor-comprobante .comprobante-online h4 {
+    font-family: "TelefonicaWeb-Bold";
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante .comprobante-online h4 span {
+        font-size: 12px;
+    }
+}
+.contenedor-comprobante .comprobante-online:before {
+    content: url(../img/ico-comprobante.png);
+    display: block;
+    width: 72px;
+    height: 53px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -33px;
+    margin: auto;
+}
+.contenedor-comprobante .comprobante-online table {
+    margin-top: 24px;
+    border: 1px solid #cdd1da;
+}
+.contenedor-comprobante .comprobante-online table tr.even {
+    background: #f6f8fa;
+}
+.contenedor-comprobante .comprobante-online table tr.odd {
+    background: #fff;
+}
+.contenedor-comprobante .comprobante-online table td {
+    font-family: "TelefonicaWeb-Light";
+    color: #5a5b6b;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 100;
+    border: 0px;
+    padding: 15px 5px 15px 24px;
+}
+.contenedor-comprobante .blue-comprobante {
+    margin: 24px 0px;
+    padding: 24px 31px;
+    background-color: #2991af;
+    color: #fff;
+    text-align: left;
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante .blue-comprobante {
+        padding: 24px 16px;
+    }
+    .contenedor-comprobante .blue-comprobante .btn-go {
+        width: 100%;
+    }
+}
+.contenedor-comprobante .blue-comprobante h3 {
+    font-family: "TelefonicaWeb-Bold";
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante .blue-comprobante h3 {
+        font-size: 15px;
+    }
+}
+.contenedor-comprobante .blue-comprobante p {
+    margin-bottom: 20px;
+}
+.contenedor-comprobante .blue-comprobante p span.big-one {
+    font-size: 35px;
+    margin: 0px 10px;
+}
+@media (max-width: 767px) {
+    .contenedor-comprobante .blue-comprobante p {
+        margin-bottom: 15px;
+    }
+}
+/*
+  ------------------------------------------------ MODIFICACIÓN PASO 1 ----------------------------------
+  */
+
+.stepRecarga .checked p {
+    color: #fff;
+}
+.stepRecarga form {
+    margin: 0px;
+}
+.stepRecarga .radio {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    margin: 0;
+    font-family: "TelefonicaWeb-ExtraLight";
+    color: #656d78;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+@media (max-width: 767px) {
+    .stepRecarga .radio {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+    .step-pago.step-pago-green .radio {
+        width: 48%;
+    }
+}
+.stepRecarga .radio input[type="radio"] {
+    position: absolute;
+    left: -30px;
+}
+.stepRecarga .radio input[type="radio"] + span {
+    padding-left: 25px;
+    height: 22px;
+    display: block;
+    background-image: url(../img/radio.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+.stepRecarga .radio.checked input[type="radio"] + span {
+    font-family: "TelefonicaWeb-Bold";
+    background-image: url(../img/radio-check.png);
+}
+.stepRecarga .radio.deshabilitado {
+    cursor: not-allowed;
+}
+.stepRecarga .radio.deshabilitado p {
+    color: #ccc;
+}
+.stepRecarga .monto-recarga {
+    margin: 24px 19px 0px;
+}
+@media (max-width: 767px) {
+    .stepRecarga .monto-recarga {
+        margin: 24px 10px 0px;
+    }
+    .stepRecarga .monto-recarga form {
+        height: 160px;
+        margin-bottom: 10px;
+    }
+    .stepRecarga .monto-recarga p {
+        margin-left: 20px;
+    }
+}
+.stepRecarga .monto-recarga .radio {
+    margin-right: 0;
+    min-height: 30px;
+    padding: 20px 14px;
+    line-height: 20px;
+    border: 1px solid #dee0e6;
+    width: 33%;
+}
+@media (max-width: 767px) {
+    .stepRecarga .monto-recarga .radio {
+        float: left;
+        margin: 1%;
+        padding: 20px;
+        width: 31%;
+    }
+}
+.stepRecarga .monto-recarga .radio span.especial {
+    font-size: 13px;
+    width: 100px;
+    line-height: 1;
+    margin-top: 0px;
+    padding-left: 0;
+    background-image: none;
+    text-align: center;
+}
+.stepRecarga .monto-recarga .radio.checked {
+    background: #5c9bfa;
+    color: #fff;
+    border-color: #5c9bfa;
+}
+.stepRecarga .monto-recarga .radio#monto-personalizado.checked {
+    padding: 0;
+    border: 0;
+    background: none;
+}
+/*****APP*****/
+
+.banner-bolsa-app {
+    background: #fff;
+    border: 1px solid #007EA8;
+    border-radius: 5px;
+    padding: 20px;
+    /*text-align: center;*/
+    
+    color: #355C81;
+}
+.llamado-app {
+    background: #007EA8;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin: 20px 0 8px 0;
+    text-align: center;
+    font-family: "TelefonicaWeb-Regular";
+    font-size: 20px;
+    position: relative;
+}
+.llamado-app::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 17px 7px 0px;
+    border-color: #007EA8 transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    left: 21px;
+}
+.nombre-bolsa {
+    font-family: "TelefonicaWeb-Regular";
+}
+@media (min-width: 768px) {
+    .banner-bolsa-app .nombre-bolsa {
+        font-size: 25px;
+        text-align: left;
+        line-height: 1.3;
+    }
+    .cap-text-main {
+        font-size: 32px;
+        line-height: 1.3;
+        display: block;
+        margin: 0 auto;
+    }
+    .cap-text-med {
+        font-size: 26px;
+        line-height: 1.3;
+        display: block;
+        margin: 0 auto;
+    }
+    .cap-text-min {
+        font-size: 18px;
+        line-height: 1.3;
+        display: block;
+        margin: 0 auto;
+    }
+    .only-phone {
+        display: none;
+    }
+    .vigencia-app {
+        display: none!important;
+    }
+    .break {
+        display: block;
+    }
+}
+.capacidad-bolsa p,
+.capacidad-bolsa span {
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 26px;
+    /*margin: 10px 0 15px;*/
+}
+.precio-app {
+    font-size: 15px;
+}
+.precio-app > strong {
+    color: #5BC500;
+    font-size: 40px;
+    font-family: "TelefonicaWeb-Regular";
+}
+.vigencia-app {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    line-height: 1.1;
+}
+.precio-app > strong > span {
+    font-size: 20px;
+    margin: 0 3px 0 0;
+}
+.btn-default.btn-green {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #5BC500;
+    border-radius: 3px;
+    color: #fff;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.btn-default.btn-green:hover,
+.btn-descargar:hover {
+    text-decoration: none;
+}
+.bolsa-303 .banner-bolsa-app {
+    padding: 20px 0px 0;
+}
+.info303 {
+    background: #E4E4E4;
+    padding: 15px;
+    margin-top: 30px;
+    color: #0077A4;
+    font-size: 15px;
+    position: relative;
+}
+.info303:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 15px 0px 15px;
+    border-color: #E4E4E4 transparent transparent transparent;
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    transform: rotate(180deg);
+}
+.info303 > span {
+    background: #59A6C1;
+    color: #fff;
+    padding: 5px;
+    font-family: "TelefonicaWeb-Bold";
+    border-radius: 3px;
+}
+.btn-darkBlue {
+    background: #00a9e0;
+}
+.btn-descargar {
+    transition: all 0.3s ease 0s;
+    font-family: "TelefonicaWeb-Bold";
+    background: url("../img/u1476.png") no-repeat 20px center #fafafa;
+    border: 1px solid #ecedf1;
+    background-size: 22px;
+    color: #679CF7;
+    padding: 13px 20px 13px 48px;
+    border-radius: 42px;
+    font-size: 13px;
+}
+.exito.exito-app {
+    padding: 48px 20px 35px;
+}
+.step-pago .seleccion-pago-alone.seleccion-pago {
+    border-top: 0;
+    margin-top: 0;
+    display: block;
+}
+/*.box-principal {
+        webkit-transition: all 2s;
+        transition: all 2s;
+    }*/
+
+.btn-block.loading {
+    background-color: #bed872;
+    vertical-align: middle;
+}
+.imgLoading {
+    width: 31px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.link-new-recarga-app {
+    font-family: "TelefonicaWeb-Bold";
+    background-color: #fff;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid #ade5d5;
+    display: block;
+    color: #5c9bfa;
+    font-size: 16px;
+    cursor: pointer;
+}
+.link-new-recarga-app:hover,
+.link-new-recarga-app:focus {
+    color: #5c9bfa;
+    text-decoration: none;
+}
+.link-continuar-recarga {
+    background-color: #0077a0;
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    font-family: "TelefonicaWeb-Light";
+    padding: 18px;
+    text-align: center;
+}
+.link-continuar-recarga:hover,
+.link-continuar-recarga:focus {
+    text-decoration: none;
+    color: #fff;
+}
+.simpleArrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: inherit;
+    background-color: rgba(0, 119, 160, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-left: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    right: -5px;
+}
+@media (max-width: 767px) {
+    .oferta-web {
+        display: inherit;
+        width: 80%;
+        margin: 0 auto 24px;
+    }
+}
+.btn-block.loading {
+    background-color: #bed872;
+    vertical-align: middle;
+}
+.imgLoading {
+    width: 31px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.link-new-recarga-app {
+    font-family: "TelefonicaWeb-Bold";
+    background-color: #fff;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid #ade5d5;
+    display: block;
+    color: #5c9bfa;
+    font-size: 16px;
+    cursor: pointer;
+}
+.link-new-recarga-app:hover,
+.link-new-recarga-app:focus {
+    color: #5c9bfa;
+    text-decoration: none;
+}
+.link-continuar-recarga {
+    background-color: #0077a0;
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    font-family: "TelefonicaWeb-Light";
+    padding: 18px;
+    text-align: center;
+}
+.link-continuar-recarga:hover,
+.link-continuar-recarga:focus {
+    text-decoration: none;
+    color: #fff;
+}
+.simpleArrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: inherit;
+    background-color: rgba(0, 119, 160, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-left: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    right: -5px;
+}
+.titleSp {
+    font-size: 18px;
+    text-align: center;
+    color: #355c81;
+    margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+    .oferta-web.ofertaWebApp {
+        display: inherit;
+        width: 80%;
+        margin: 0 auto 24px;
+    }
+}
+@media (min-width: 767px) {
+    .rowButtons input.btn-block,
+    .rowButtons button.btn-block {
+        width: 100%;
+    }
+}
+.vertical-top {
+    vertical-align: top;
+}
+.basic-grid {
+    display: table;
+    width: 100%;
+}
+.basic-col {
+    display: table-cell;
+}
+.vertical-middle {
+    vertical-align: middle;
+}
+.cell-onlytext {
+    vertical-align: middle;
+}
+.text-highlight {
+    font-size: 18px;
+}
+.cargando .cabecera a.button-min {
+    margin-top: 0;
+    margin-left: 10px;
+}
+.button-min {
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 12px;
+    color: #00a9e0;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    border: 1px solid #00a9e0;
+    border-radius: 14px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px 15px;
+    margin-left: 15px;
+    line-height: 1.4;
+}
+.button-min:hover,
+.button-min:focus {
+    color: #FFFFFF;
+    background-color: #00a9e0;
+    text-decoration: none;
+}
+.w-col-tit {
+    width: 200px;
+}
+.col-listed {
+    padding: 0 4%;
+    text-align: center;
+}
+.list-block:last-child {
+    margin-top: 10px;
+}
+.min-text {
+    font-family: "TelefonicaWeb-Light"!important;
+}
+.last-col {
+    width: 137px;
+    padding-left: 10px;
+}
+.price-col {
+    width: 285px;
+}
+.sep-desk {
+    padding-left: 10px;
+}
+.col-data {
+    width: 30%;
+}
+.banner-bolsa-app .btn-default.btn-green {
+    font-size: 18px;
+    font-family: "TelefonicaWeb-Bold";
+}
+@media (max-width: 1935px) {
+    p {
+        font-family: "TelefonicaWeb-Light";
+        line-height: 120%;
+        font-weight: normal;
+    }
+    .basic-grid.grid-collapse-sp > .basic-col {
+        display: block;
+        width: 100%;
+    }
+    .banner-bolsa-app .nombre-bolsa {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+    .text-key {
+        margin-bottom: 3px;
+    }
+    .col-listed {
+        padding-right: 0;
+        text-align: left;
+    }
+    .list-block:last-child {
+        border-bottom: 1px solid #ccc!important;
+        border-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .price-col,
+    .last-col {
+        width: auto;
+    }
+    .last-col {
+        padding-left: 10px;
+    }
+    .numerosBam select {
+        font-size: 22px;
+        padding: 0 4px;
+        font-family: "TelefonicaWeb-Light";
+    }
+    .col-listed {
+        padding: 0;
+    }
+    .mob-line {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .sep-desk {
+        padding-left: 0;
+    }
+    .capacidad-bolsa p,
+    .capacidad-bolsa span {
+        font-size: 23px;
+    }
+    .list-block {
+        padding-bottom: 0px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+    .list-block:last-child {
+        border-bottom: none;
+        border-bottom: 0;
+    }
+}
+@media (max-width: 767px) {    
+    .basic-grid.grid-collapse {
+        /*display: block;*/
+    }
+    .basic-grid.grid-collapse > .basic-col {
+        display: block;
+        width: 100%;
+    }
+    .cell-onlytext {
+        margin-bottom: 12px;
+    }
+    .btn-back-transparente {
+      margin: auto;
+    }
+}
+@media (min-width: 1200px) {
+    .col-listed {
+        padding: 0 14%;
+        text-align: center;
+    }
+}
+
+
+.wizard steps-header [step].active{
+	background: #72CFEE;
+}
+.wizard steps-header [step] {
+	z-index: 2;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    width: 3rem;
+    -webkit-border-radius: 3rem;
+    border-radius: 3rem;
+    position: relative;
+    background: #dfdfdf;
+}
+.wizard steps-header [step] ng-transclude{
+	margin: 4px auto;
+    border: 3px solid #fff;
+    line-height: 2.175rem;
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    border-radius: -0.5rem;
+    display: block;
+}
+

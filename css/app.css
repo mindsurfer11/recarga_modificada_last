@@ -1,0 +1,416 @@
+ .banner-bolsa-app{
+  background: #fff;
+  border: 1px solid #00a9e0;
+  border-radius: 5px;
+  padding: 20px;
+  /*text-align: center;*/
+  color: #00a9e0;
+      max-width: 500px;
+    margin: auto;
+}
+.llamado-app {
+  background: #00a9e0;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 20px 0 8px 0;
+  text-align: center;
+  font-family: "TelefonicaWeb-Regular";
+  font-size: 20px;
+  position: relative;
+      max-width: 300px;
+    margin: 15px auto;
+}
+.llamado-app::after  {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 17px 7px 0px;
+  border-color: #00a9e0 transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  left: 21px;
+}
+.nombre-bolsa {
+  font-family: "TelefonicaWeb-Regular";
+}
+.capacidad-bolsa{
+  font-family: "TelefonicaWeb-Bold";
+  font-size: 23px;
+  margin: 5px 0 5px;
+}
+.precio-app {
+    font-size: 15px;
+}
+.precio-app > strong{
+    color: #7AB800;
+    font-size: 40px;
+    font-family: "TelefonicaWeb-Regular";
+}
+.vigencia-app{
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 1.1;
+}
+.precio-app > strong > span{
+  font-size: 20px;
+  margin: 0 3px 0 10px;
+}
+.btn-default.btn-green:hover, .btn-descargar:hover {
+    text-decoration: none;
+}
+.bolsa-303 .banner-bolsa-app{
+    padding: 20px 0px 0;
+}
+.info303{
+  background: #E4E4E4;
+  padding: 15px 5px;
+  margin-top: 30px;
+  color: #0077A4;
+  font-size: 14px;
+  position: relative;
+}
+.info303:after  {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 15px 0px 15px;
+  border-color: #E4E4E4 transparent transparent transparent;
+  position: absolute;
+  top: -12px;
+  left: 45%;
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.info303 > span  {
+  background: #59A6C1;
+  color: #fff;
+  padding: 5px;
+  font-family: "TelefonicaWeb-Bold";
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.btn-darkBlue {
+    background: #00a9e0;
+}
+.btn-descargar {
+  transition: all 0.3s ease 0s;
+  font-family: "TelefonicaWeb-Bold";
+  background: url("../img/u1476.png") no-repeat 20px center #fafafa;
+  border: 1px solid #ecedf1;
+  background-size: 22px;
+  color: #679CF7;
+  padding: 13px 20px 13px 48px;
+  border-radius: 42px;
+  font-size: 13px;
+}
+.exito.exito-app {
+  padding: 48px 20px 35px;
+
+}
+.successful-wrap {
+  background-color: #FFF;
+  padding: 26px 15px 0 15px;
+}
+.recarga-en-linea-app .margin-top-12 {
+  margin-top: 20px;
+}
+.box-principal-app  #StepRecarga .table-row div.second:before {
+  display: none;
+}
+.recarga-en-linea-app  #StepRecarga .table-row div {
+	width: auto;
+    padding: 0px 10px 20px;
+    border-left: 1px solid #ECF0F6;
+}
+.recarga-en-linea-app  #StepRecarga .table-row div:first-child {
+  border-left: none;
+}
+.recarga-en-linea-app  #StepRecarga .table-row div h4 {
+  font-size: 15px;
+  color: #C9C9C9;
+  font-family:"TelefonicaWeb-Regular";
+
+}
+.recarga-en-linea-app  #StepRecarga .table-row div.active h4 {
+  color: #ffffff;
+  font-family: "TelefonicaWeb-ExtraLight";
+  font-size: 15px;
+  font-weight: 600;
+}
+.recarga-en-linea-app .seleccion label,
+.recarga-en-linea-app  label {
+  line-height: 1.2;
+  margin-top: 20px;
+  font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+}
+.box-principal-app .seleccion label, 
+.box-principal-app .seleccion p {
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 800;
+  font-family: "TelefonicaWeb-ExtraLight";
+}
+.recarga-en-linea-app.recarga-en-linea:after {
+  height: 60px;
+}
+.recarga-en-linea-app .padding-bottom-36 {
+  padding-bottom: 10px;
+}
+.recarga-en-linea-app .padding-top-36 {
+  padding-top: 16px;
+}
+.recarga-en-linea-app.recarga-en-linea h1 {
+  text-align: left;
+  margin-left: 16px;
+}
+.recarga-en-linea-app label {
+  display: block;
+  margin-bottom: 13px;
+}
+.recarga-en-linea-app form {
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+.recarga-en-linea-app .info-comercial-app h3 {
+  font-family: "TelefonicaWeb-Bold";
+  font-size: 17px;
+  margin-bottom: 17px;
+  color: #00a9e0;
+}
+.recarga-en-linea-app .btn-back-transparente:before {
+  border-right: 0;
+}
+
+.recarga-en-linea-app .btn-back-transparente span {
+  margin-left: 0;
+  padding-left: 0;
+    font-size: 17px
+}
+.recarga-en-linea-app .seleccion .nav-tabs li a {
+  font-size: 12px;
+  padding: 8px;
+  background-color: #B8E1EC;
+  color: #fff;
+}
+
+.recarga-en-linea-app #StepRecarga .table-row div.past a {
+  color: #C9C9C9;
+  font-family: "TelefonicaWeb-ExtraLight";
+  font-size: 13px;
+}
+.recarga-en-linea-app  #StepRecarga .table-row div.past {
+  background-color: #fff;
+}
+
+
+.recarga-en-linea-app .seleccion .nav-tabs li.active a {
+  background-color: #00a9e0;
+  border-color: #00a9e0;
+}
+.box-principal.margin-bottom-24.box-principal-app {
+  margin-bottom: 5px;
+}
+ .numerosBam input::-moz-placeholder,
+    .numero-hogar input::-moz-placeholder {
+        font-family: "TelefonicaWeb-ExtraLight";
+        font-size: 18px;
+        color: #d0cdcc;
+        line-height: 1.3;
+        line-height: 54px;
+    }
+    .numerosBam input::-webkit-input-placeholder,
+    .numero-hogar input::-webkit-input-placeholder {
+        font-family: "TelefonicaWeb-ExtraLight";
+        font-size: 18px;
+        color: #d0cdcc;
+        line-height: 1.3;
+        position: relative;
+        bottom: 7px;
+    }
+    .numerosBam input:-ms-input-placeholder,
+    .numero-hogar input:-ms-input-placeholder {
+        font-family: "TelefonicaWeb-ExtraLight";
+        font-size: 18px;
+        color: #d0cdcc;
+        line-height: 1.3;
+        position: relative;
+        bottom: 7px;
+    }  
+
+.recarga-en-linea-app .block-banner-bolsa .ver-mas a{
+  color: #00a9e0;
+  font-size: 16px;
+}
+.nav {
+  margin-bottom: 0px;
+}
+.recarga-en-linea-app .seleccion .nav-tabs li a .content-ico {
+  display: block;
+}
+.container-app {
+  max-width: 767px;
+  margin: 0 auto;
+  width: 100%;
+}
+.row-fluid input.btn-block, .row-fluid button.btn-block {
+  float: none;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .row-fluid input.btn-block, .row-fluid button.btn-block {
+  float: none;
+  width: 80%;
+}
+}
+.verificar {
+    font-family: "TelefonicaWeb-Regular";
+    color: #656d78;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid #ecf0f6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.verificar span {
+    font-family: "TelefonicaWeb-Bold";
+    font-size: 17px;
+    margin-left: 5px;
+}
+.button-sec {
+  font-size: 14px;
+  font-family: "TelefonicaWeb-Regular";
+  color: #00a9e0;
+  border: 1px solid #00a9e0;
+  padding: 9px;
+  height: 58px;
+  display: inline-block;
+  line-height: 1.3;
+  width: 100%;
+  border-radius: 4px;
+}
+.button-sec:hover, .button-sec:focus {
+  text-decoration: none;
+  color: #00a9e0;
+}
+.col-btn {
+ width: 120px;
+ padding-left: 15px;
+}
+.link-footer {
+  background-color: #fff;
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.button-footer, .button-footer:hover, .button-footer:focus  {
+    background-color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    color: #00a9e0;
+    border: 1px solid rgba(173, 229, 213, 1);
+    font-family: "TelefonicaWeb-Bold";
+    width: 100%;
+    max-width: 250px;
+    text-decoration: none;
+}
+#StepRecarga .table-row > div {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.imagen-cargando p {
+  text-align: center;
+  margin-top: 5px;
+}
+.button-next {
+ background-color: #1089a8;
+ height: 44px;
+ position: relative;
+ left: -3px;
+ border: none;
+ width: 20%;
+ border-radius: 0 3px 3px 0;
+}
+.arrow-mini {
+    display: block;
+    position: absolute;
+    left: calc(50% - 11px);
+    top: 14px;
+    width: 14px;
+    height: 14px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-left: 0px;
+    border-bottom: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+.input-button-wrap {
+  white-space: nowrap;
+}
+select.disabled {
+  background-color: #fff;
+}
+#mensaje-tardando {
+    border-top: 2px solid #ecf0f6;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+.step-pago.step-pago-green #asignarMonto {
+  width: 55%;
+  padding-left: 2px;
+}
+.carousel-control {
+  display: none;
+}
+.numerosBam input {
+  font-size: 38px;
+  padding: 0 20px;
+  font-family: "RobotoThin";
+  height: 58px;
+  border: 1px solid #e6e9ed;
+  box-shadow: none;
+  width: 100%;
+}
+.numerosBam input[readonly] {
+  background-color: #fff;
+  font-family: "RobotoThin";
+  font-size: 34px;
+  padding: 0 10px;
+}
+@media (max-width: 767px) {
+  .step-pago .monto-recarga p {
+    margin-left: 5px;
+  }
+  .step-pago .seleccion-pago {
+    padding-top: 20px;
+  }  
+}
+@media (max-width: 480px) {
+  .recarga-en-linea-app .seleccion .nav-tabs li a .content-ico {
+    display: none;
+  }
+}

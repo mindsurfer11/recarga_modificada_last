@@ -1,0 +1,80 @@
+
+.cambiate-2 .item{			
+	background-image: url('../img/bg-cambiate-ie8.jpg'); 
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.portate-2 .item{
+	background-image: url('../img/bg-portate-ie8.jpg'); 
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.club-movistar{
+	min-height: 259px !important;
+	height: 259px !important;
+}
+
+.cajas-banner-2 .item .txts-item{
+	min-height: 180px;
+}
+
+.span6 .canjes{
+	height: 259px;
+}
+
+.row{
+	margin-left: 0px !important;
+}
+
+.span6 .beneficios-box{
+	height: 259px;
+}
+
+.row-fluid .box .cajas-banner{
+	height: 259px;
+}
+
+.link-simple{
+	margin-right: 5px;
+}
+
+.portate .item{
+	background-image: url('../img/bg-portate-mobile.jpg'); 
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+
+.cambiate .item{
+	background-image: url('../img/bg-cambiate-mobile.jpg'); 
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+			
+input[type='text']{
+	width: 100%;
+	height: 48px;
+	background: transparent;
+	height: 48px;
+}	
+
+/*
+.input-border:after {
+	content: ' ';
+	position: absolute;
+	display: block;
+	width: 9px;
+	height: 50px;
+	top:0px;
+	left: 0px;
+	background-image: url('../img/border-input.png'); 
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}*/

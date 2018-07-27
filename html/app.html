@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recarga en línea</title>
+	<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/main_app.css">
+	<link rel="stylesheet" href="../css/app.css">
+	<!-- Respond.js proxy on external server -->
+	<link href="../js/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+	<!-- Respond.js redirect location on local server -->
+	<link href="../js/respond/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="../css/ie8.css">
+	<![endif]-->
+</head>
+<body>
+	<div class="recarga-en-linea recarga-en-linea-app">
+		<div class="container-app">
+			<div class="inner">
+				<div class="row-fluid" id="blockForm">
+					<div class="box-principal margin-bottom-24 box-principal-app">
+						<div id="StepRecarga">
+							<div class="table-row">
+								<div class="active" id="wiz-1">
+									<h4 class="margin-top-12">Ingresa tu número</h4>
+									
+								</div>
+								<div class="second" id="wiz-2">
+									<h4 class="margin-top-12 ">Elige monto y medio de pago</h4>
+									
+								</div>
+								<div class="" id="wiz-3">
+									<h4 class="margin-top-12">Paga tu recarga</h4>
+									
+								</div>
+							</div>
+						</div>
+						
+						<div class="verificar" id="rechargeNumber" style="display: none;">
+							Recargando el número  <span>987776655</span> <a href="#" id="backPhone" class="button-min">Cambiar</a>
+						</div>
+						<div class="verificar" id="rechargeAmount" style="display: none;">
+							con $<span id="rechargeAmountNumber"></span><a href="#" id="backAmount" class="button-min">Cambiar</a>
+						</div>
+						<div class="verificar" id="rechargeMethod" style="display: none;">
+							via  <span id="rechargeMethodVal"></span><a href="#" id="backMethod" class="button-min">Cambiar</a>
+						</div>
+						<div id="myCarousel" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="active item">
+									<div id="cargarOtraLinea">
+										<div id="cargarOtraLineaInner">
+											<div class="seleccion" id="NroClienteForm">
+												<form action="recarga-en-linea-2SV.html">
+													<div class="numerosBam">
+														<label for="t0">Número a recargar</label>
+														<div class="basic-grid">
+															<div class="basic-col">
+																<!--<select disabled class="disabled">
+																	<option>999111222</option>
+																	<option>888111222</option>
+																</select>-->
+																<input type="text" value="999111222" readonly>
+															</div>
+															<div class="basic-col vertical-top col-btn">
+																<a href="#" id="btnCargarOtraLinea" class="button-sec">Recargar<br> otro número</a>
+															</div>
+														</div>
+													</div>
+													<button id="EnvioNroCliente" class="btn-block"><span class="btn-block-text">Confirmar número</span></button>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div id="otraLinea" style="display: none;">
+										<div id="otraLineaInner">
+											<div class="seleccion">
+												
+												<div class="tab-content">
+													
+													<div class="tab-pane" id="hogar" style="display: block;">
+														<form id="BamForm" action="recarga-en-linea-2SV.html">
+															<div class="numero-hogar">
+																<label for="h1">Número a recargar (móvil o fijo)</label>
+																<input id="h1" name="h1" type="text" placeholder="Ej: 226914676 (9 digitos)" autocomplete="off" maxlength="9" class="rounded">
+																<img src="../img/error.png" id="error-numero-hogar" class="error-img">
+																<div class="verificaNumero" id="msg-error-numero-hogar">
+																	Recuerda que el número debe tener <strong>9 dígitos</strong>.
+																</div>
+															</div>
+															<div class="numero-hogar">
+																<label for="h2">Confirmar número a recargar</label>
+																<input id="h2" name="h2" type="text" placeholder="Confirma tu número" autocomplete="off" class="rounded" maxlength="9">
+																<img src="../img/error.png" id="error-confirmacion-hogar" class="error-img">
+																<div class="verificaNumero" id="msg-error-confirmacion-hogar">
+																	¡Ojo! los números <strong>no coinciden</strong>.<br>
+																	<small>Es tedioso repetirlos pero es mejor asegurarse</small>
+																</div>
+															</div>
+															<input id="Envio-hogar" class="disabled btn-block disabled" value="Confirmar número" disabled="disabled" type="submit">
+														</form>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--PASO 2-->
+								<div class="item">
+									<div class="step-pago step-pago-green">
+										<div class="monto-recarga" data-list-amount>
+											<p>Selecciona el monto a recargar</p>
+											<form >
+												<label class="radio">
+												<input type="radio" name="monto" id="monto1" value="1000">
+												<span>$1.000</span>
+												</label>
+												<label class="radio">
+												<input type="radio" name="monto" id="monto2" value="2000">
+												<span>$2.000</span>
+												</label>
+												<label class="radio">
+												<input type="radio" name="monto" id="monto3" value="4000">
+												<span>$4.000</span>
+												</label>
+												<label class="radio">
+												<input type="radio" name="monto" id="monto4" value="5000">
+												<span>$5.000</span>
+												</label>
+												<label class="radio">
+												<input type="radio" name="monto" id="monto5" value="10000">
+												<span>$10.000</span>
+												</label>
+												<label class="radio" id="monto-personalizado">
+													<input class="sourcery" type="radio" name="monto" id="monto6" value="otro" >
+													<span class="sourcery especial"><span class="onlyText">Otro monto desde $500</span></span>
+													<!--<span id="mPersonalizado" class="especial desaparece">Monto personalizado</span>-->
+													<span id="signo-peso" class="desaparece">$</span>
+													<div class="input-button-wrap">
+														<input class="rounded desaparece montoCarga" name="monto" id="asignarMonto" type="text" placeholder="" value="" autocomplete="off" maxlength="5">
+														<button class="button-next desaparece" id="btnAmount"><span class="arrow-mini"></span></button>
+													</div>
+													<div class="verificaNumero" id="msg-error-monto-personalizado">
+														El monto debe ser mayor a $500
+													</div>
+												</label>
+											</form>
+										</div>
+									</div>
+								</div>
+								<!--Paso 3-->
+								<div class="item">
+									<div class="step-pago step-pago-green">
+										<div class="seleccion-pago seleccion-pago-alone">
+											<p>Selecciona el medio de pago</p>
+											<form action="" id="TipoPago">
+												<label class="radio">
+													<input type="radio" name="tipo-pago" value="Webpay">
+													<span>
+														<div class="logo-pago"><img src="../img/u1233.png"></div>
+														<p><strong>WebPay: </strong> Tarjeta de Crédito o Redcompra</p>
+													</span>
+												</label>
+												<label class="radio">
+													<input type="radio" name="tipo-pago" value="Khipu">
+													<span>
+														<div class="logo-pago"><img src="../img/u1323.png"></div>
+														<p><strong>Tarjeta ABCDIN</strong></p>
+													</span>
+												</label>
+												<label class="radio">
+													<input type="radio" name="tipo-pago" value="abcdin">
+													<span>
+														<div class="logo-pago"><img src="../img/u1294.png"></div>
+														<p><strong>Tarjeta Presto</strong></p>
+													</span>
+												</label>
+												<label class="radio">
+													<input type="radio" name="tipo-pago" value="Banco Estado">
+													<span>
+														<div class="logo-pago"><img src="../img/u1262.png"></div>
+														<p><strong>Khipu:</strong>  Transferencia Bancaria</p>
+													</span>
+												</label>
+												<label class="radio" id="label-servipag">
+													<input id="servipag" type="radio" name="tipo-pago" value="Servipag" disabled="disabled">
+													<span>
+														<div class="logo-pago" id="logo-servipag"><img src="../img/u1246.png"></div>
+														<p>Para montos superiores a <strong>$10.000</strong></p>
+													</span>
+												</label>
+												<label class="radio" id="label-presto">
+													<input id="presto" type="radio" name="tipo-pago" value="Presto">
+													<span>
+														<div class="logo-pago" id="logo-presto"><img src="../img/u1278.png"></div>
+														<p><strong>Servipag:</strong> Tarjeta de Bancos o retail ( CMR, Cencosud o Ripley)</p>
+													</span>
+												</label>
+												<div class="verificaNumero" id="msg-error-servipag">
+													Servipag acepta recargas sobre los $10.000
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<!--Paso 4-->
+								<div class="item">
+									<div class="imagen-cargando">
+										<img src="../img/cargando.gif">
+										<p>Cargando Webpay...</p>
+									</div>
+									<div id="mensaje-tardando">
+										<p>Parece que está tardando en cargar</p>
+										<p>Podemos esperar un poco más o  si prefieres, puedes</p>
+										<a href="#" class="btn-back">Elegir otro medio de pago</a> 
+									</div>
+								</div>
+								<!--Paso 5-->
+								<div class="item">
+									<div id="pago">
+										<!--Boton solo para prototipo>-->
+										<a href="#" class="btn-block" id="toLast">CLICK para continuar</a>
+										<!--Boton solo para prototipo>-->
+										<div class="iframe-pago">
+											<iframe id="iframe-pago" src="webpay.html"></iframe>
+										</div>
+									</div>
+								</div>
+								<!--Paso 6-->
+								<div class="item">
+									<div class="successful-wrap">
+										<div class="exito exito-app">
+											<div class="contenido-mensaje">
+												<h4>Tu recarga ha sido realizada</h4>
+												<p class="info-comprobante">Se han recargado <strong>$5.000</strong> al número <strong>035-451099</strong> a las <strong>12:24 hrs.</strong> del <strong>18 de Diciembre de 2014</strong>.</p>
+												<p>Envía el comprobante a tu email:</p>
+												<form class="half-form seleccion" id="form-mail-comprobante">
+													<input type="text" class="rounded" placeholder="correo@email.com" id="input-mail-comprobante">
+													<button type="submit" class="btn-block btn-darkBlue deshabilitado" disabled="disabled" id="">Enviar comprobante</button>
+													<div class="clear"></div>
+												</form>
+												<div class="comprobantes">
+													<p class="obien">O bien</p>
+													<a href="#" class="btn-descargar">Descargar el comprobante</a>
+												</div>
+											</div>
+										</div>
+										<div class="block-banner-bolsa">
+											<div class="text-provecho-recarga">
+												<p class="llamado-app">Sácale provecho a tu recarga.</p>
+											</div>
+											<div class="banner-bolsa-app">
+												<div class="basic-grid grid-collapse-sp">
+													<div class="basic-col w-col-tit">
+														<h2 class="nombre-bolsa"><span class="break">Bolsa</span> Multimedia 200</h2>
+													</div>
+													<div class="basic-col vertical-top col-listed">
+														<div class="list-block">
+															<p class="text-key">Internet</p>
+															<p class="capacidad-bolsa"><span class="cap-text-main">200 MB</span></p>
+														</div>
+														<div class="list-block">
+															<p class="text-key">+ Redes sociales</p>
+															<p class="capacidad-bolsa"><span class="cap-text-med">200 MB <span class="min-text">Gratis</span></span></p>
+														</div>
+														<div class="list-block">
+															<div class="basic-grid">
+																<div class="basic-col">
+																	<p class="text-key">Minutos</p>
+																	<p class="capacidad-bolsa"><span class="cap-text-med">25</span></p>
+																</div>
+																<div class="basic-col">
+																	<p class="text-key">Mensajes</p>
+																	<p class="capacidad-bolsa"><span class="cap-text-med">25</span></p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="basic-col">
+														<div class="basic-grid">
+															<div class="basic-col">
+																<p>7 días</p>
+																<p>de vigencia por</p>
+																<br>
+																<p class="precio-app"><strong><span>$</span>3.990</strong></p>
+															</div>
+															<div class="basic-col last-col">
+																<p>Cómprala marcando</p>
+																<a href="" class="btn-default btn-green">*303#</a>
+																<p>o llamando al <strong>303</strong></p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<p class="ver-mas"><a href="http://www.movistar.cl/PortalMovistarWeb/telefonia-movil/bolsas-prepago/bolsas-de-internet">Revisar todas las bolsas de prepago &gt;</a></p>
+										</div>
+										<a href="#0" class="btn-back-transparente" id="backFirstStep"><span>Realizar otra recarga</span></a>
+									</div>
+								</div>
+							</div>
+							<!-- Carousel nav -->
+							<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+							<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.js"></script>
+	<script src="../bootstrap/js/bootstrap-carousel.js"></script>
+	<!-- Respond.js proxy script on local server -->
+	<script src="../js/respond/respond.js"></script>
+	<script src="../js/respond/respond.proxy.js"></script>
+	<script src="../js/jquery.corner.js"></script>
+	<script src="../js/funciones_base.js" type="text/javascript"></script>
+	<script src="../js/funciones_app.js" type="text/javascript"></script>
+</body>
+</html>
